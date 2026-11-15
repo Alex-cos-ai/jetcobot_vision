@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/set_target_joints" "/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/set_target_position" "TARGETS" "set_target_joints" "set_target_position" "DESTINATION" "lib/jetcobot_moveit")

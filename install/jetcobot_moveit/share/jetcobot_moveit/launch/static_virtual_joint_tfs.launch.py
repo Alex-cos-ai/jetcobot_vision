@@ -1,0 +1,1 @@
+/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/launch/static_virtual_joint_tfs.launch.py

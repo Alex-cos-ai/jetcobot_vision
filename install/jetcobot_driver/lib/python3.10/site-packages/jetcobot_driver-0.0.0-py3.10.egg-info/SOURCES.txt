@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/jetcobot_driver/jetcobot_driver.egg-info/PKG-INFO
+../../build/jetcobot_driver/jetcobot_driver.egg-info/SOURCES.txt
+../../build/jetcobot_driver/jetcobot_driver.egg-info/dependency_links.txt
+../../build/jetcobot_driver/jetcobot_driver.egg-info/entry_points.txt
+../../build/jetcobot_driver/jetcobot_driver.egg-info/requires.txt
+../../build/jetcobot_driver/jetcobot_driver.egg-info/top_level.txt
+../../build/jetcobot_driver/jetcobot_driver.egg-info/zip-safe
+jetcobot_driver/__init__.py
+jetcobot_driver/sync_plan.py
+jetcobot_driver/sync_plan_nx.py
+resource/jetcobot_driver
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

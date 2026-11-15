@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/jetcobot_driver/jetcobot_driver.egg-info
+writing ../../build/jetcobot_driver/jetcobot_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/jetcobot_driver/jetcobot_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/jetcobot_driver/jetcobot_driver.egg-info/entry_points.txt
+writing requirements to ../../build/jetcobot_driver/jetcobot_driver.egg-info/requires.txt
+writing top-level names to ../../build/jetcobot_driver/jetcobot_driver.egg-info/top_level.txt
+writing manifest file '../../build/jetcobot_driver/jetcobot_driver.egg-info/SOURCES.txt'
+reading manifest file '../../build/jetcobot_driver/jetcobot_driver.egg-info/SOURCES.txt'
+writing manifest file '../../build/jetcobot_driver/jetcobot_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build
+creating /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build/lib
+creating /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build/lib/jetcobot_driver
+copying jetcobot_driver/sync_plan.py -> /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build/lib/jetcobot_driver
+copying jetcobot_driver/sync_plan_nx.py -> /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build/lib/jetcobot_driver
+copying jetcobot_driver/__init__.py -> /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build/lib/jetcobot_driver
+running install
+running install_lib
+creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot_driver
+copying /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build/lib/jetcobot_driver/sync_plan.py -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot_driver
+copying /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build/lib/jetcobot_driver/sync_plan_nx.py -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot_driver
+copying /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build/lib/jetcobot_driver/__init__.py -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot_driver
+byte-compiling /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot_driver/sync_plan.py to sync_plan.cpython-310.pyc
+byte-compiling /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot_driver/sync_plan_nx.py to sync_plan_nx.cpython-310.pyc
+byte-compiling /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot_driver/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/ament_index
+creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/ament_index/resource_index
+creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/ament_index/resource_index/packages
+copying resource/jetcobot_driver -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver
+running install_egg_info
+Copying ../../build/jetcobot_driver/jetcobot_driver.egg-info to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot_driver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sync_plan script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+Installing sync_plan_nx script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+writing list of installed files to '/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/install.log'

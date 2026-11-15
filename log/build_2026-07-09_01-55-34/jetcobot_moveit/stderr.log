@@ -1,0 +1,9 @@
+/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/src/set_target_position.cpp:27:1: warning: missing terminating " character
+   27 | "    planning_scene_interface_ = std::make_shared<moveit::planning_interface::PlanningSceneInterface>();
+      | ^
+/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/src/set_target_position.cpp:27:1: error: missing terminating " character
+   27 | "    planning_scene_interface_ = std::make_shared<moveit::planning_interface::PlanningSceneInterface>();
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/set_target_position.dir/build.make:76: CMakeFiles/set_target_position.dir/src/set_target_position.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/set_target_position.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

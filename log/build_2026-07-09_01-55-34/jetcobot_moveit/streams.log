@@ -1,0 +1,14 @@
+[0.022s] Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit': CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/opt/ros/humble /usr/bin/cmake --build /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit -- -j6 -l6
+[0.125s] [35m[1mConsolidate compiler generated dependencies of target set_target_position[0m
+[0.177s] [ 25%] [32mBuilding CXX object CMakeFiles/set_target_position.dir/src/set_target_position.cpp.o[0m
+[0.198s] [ 75%] Built target set_target_joints
+[1.567s] /home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/src/set_target_position.cpp:27:1: warning: missing terminating " character
+[1.567s]    27 | "    planning_scene_interface_ = std::make_shared<moveit::planning_interface::PlanningSceneInterface>();
+[1.568s]       | ^
+[1.568s] /home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/src/set_target_position.cpp:27:1: error: missing terminating " character
+[1.569s]    27 | "    planning_scene_interface_ = std::make_shared<moveit::planning_interface::PlanningSceneInterface>();
+[1.569s]       | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[16.441s] gmake[2]: *** [CMakeFiles/set_target_position.dir/build.make:76: CMakeFiles/set_target_position.dir/src/set_target_position.cpp.o] Error 1
+[16.443s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/set_target_position.dir/all] Error 2
+[16.444s] gmake: *** [Makefile:146: all] Error 2
+[16.447s] Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit' returned '2': CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/opt/ros/humble /usr/bin/cmake --build /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit -- -j6 -l6

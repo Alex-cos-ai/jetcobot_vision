@@ -1,0 +1,1 @@
+/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_environment_hooks/local_setup.sh

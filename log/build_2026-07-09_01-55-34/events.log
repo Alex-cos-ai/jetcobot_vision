@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000616] (-) JobUnselected: {'identifier': 'jetcobot_description'}
+[0.000741] (-) JobUnselected: {'identifier': 'jetcobot_driver'}
+[0.000886] (jetcobot_moveit) JobQueued: {'identifier': 'jetcobot_moveit', 'dependencies': OrderedDict([('jetcobot_description', '/home/jetson/jetcobot_colcon_ws/install/jetcobot_description')])}
+[0.001146] (jetcobot_moveit) JobStarted: {'identifier': 'jetcobot_moveit'}
+[0.018477] (jetcobot_moveit) JobProgress: {'identifier': 'jetcobot_moveit', 'progress': 'cmake'}
+[0.021287] (jetcobot_moveit) JobProgress: {'identifier': 'jetcobot_moveit', 'progress': 'build'}
+[0.021484] (jetcobot_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit', '--', '-j6', '-l6'], 'cwd': '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.55.100 57383 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/jetcobot_ws/install/jetcobot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/jetcobot_colcon_ws'), ('SSH_TTY', '/dev/pts/4'), ('JETSON_L4T', '36.4.4'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jetson/jetcobot_colcon_ws/install:/home/jetson/jetcobot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (8GB ram)'), ('JETSON_SERIAL_NUMBER', '1422725018378'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '68'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', ''), ('JETSON_SOC', 'tegra234'), ('ROS_DOMAIN_ID', '98'), ('AMENT_PREFIX_PATH', '/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit'), ('SSH_CONNECTION', '192.168.55.100 57383 192.168.55.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/jetcobot_ws/install/jetcobot_visual/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_msgs/local/lib/python3.10/dist-packages:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_grasp/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_ctrl/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_advance/lib/python3.10/site-packages:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/lib/python3.10/site-packages/:'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0003')]), 'shell': False}
+[0.096761] (-) TimerEvent: {}
+[0.125556] (jetcobot_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target set_target_position\x1b[0m\n'}
+[0.178010] (jetcobot_moveit) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/set_target_position.dir/src/set_target_position.cpp.o\x1b[0m\n'}
+[0.196913] (-) TimerEvent: {}
+[0.198491] (jetcobot_moveit) StdoutLine: {'line': b'[ 75%] Built target set_target_joints\n'}
+[0.297075] (-) TimerEvent: {}
+[0.398019] (-) TimerEvent: {}
+[0.498623] (-) TimerEvent: {}
+[0.599233] (-) TimerEvent: {}
+[0.699852] (-) TimerEvent: {}
+[0.800443] (-) TimerEvent: {}
+[0.901058] (-) TimerEvent: {}
+[1.001718] (-) TimerEvent: {}
+[1.102359] (-) TimerEvent: {}
+[1.203383] (-) TimerEvent: {}
+[1.304001] (-) TimerEvent: {}
+[1.404662] (-) TimerEvent: {}
+[1.505339] (-) TimerEvent: {}
+[1.567836] (jetcobot_moveit) StderrLine: {'line': b'/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/src/set_target_position.cpp:27:1: warning: missing terminating " character\n'}
+[1.568516] (jetcobot_moveit) StderrLine: {'line': b'   27 | "    planning_scene_interface_ = std::make_shared<moveit::planning_interface::PlanningSceneInterface>();\n'}
+[1.568797] (jetcobot_moveit) StderrLine: {'line': b'      | ^\n'}
+[1.569409] (jetcobot_moveit) StderrLine: {'line': b'/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/src/set_target_position.cpp:27:1: error: missing terminating " character\n'}
+[1.569706] (jetcobot_moveit) StderrLine: {'line': b'   27 | "    planning_scene_interface_ = std::make_shared<moveit::planning_interface::PlanningSceneInterface>();\n'}
+[1.569897] (jetcobot_moveit) StderrLine: {'line': b'      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[1.605501] (-) TimerEvent: {}
+[1.706066] (-) TimerEvent: {}
+[1.806650] (-) TimerEvent: {}
+[1.907291] (-) TimerEvent: {}
+[2.008124] (-) TimerEvent: {}
+[2.108769] (-) TimerEvent: {}
+[2.209641] (-) TimerEvent: {}
+[2.310423] (-) TimerEvent: {}
+[2.411006] (-) TimerEvent: {}
+[2.512054] (-) TimerEvent: {}
+[2.613146] (-) TimerEvent: {}
+[2.720271] (-) TimerEvent: {}
+[2.820967] (-) TimerEvent: {}
+[2.921636] (-) TimerEvent: {}
+[3.022232] (-) TimerEvent: {}
+[3.122898] (-) TimerEvent: {}
+[3.223542] (-) TimerEvent: {}
+[3.324197] (-) TimerEvent: {}
+[3.424838] (-) TimerEvent: {}
+[3.525469] (-) TimerEvent: {}
+[3.626137] (-) TimerEvent: {}
+[3.726788] (-) TimerEvent: {}
+[3.827468] (-) TimerEvent: {}
+[3.928097] (-) TimerEvent: {}
+[4.028767] (-) TimerEvent: {}
+[4.129373] (-) TimerEvent: {}
+[4.229946] (-) TimerEvent: {}
+[4.330599] (-) TimerEvent: {}
+[4.431191] (-) TimerEvent: {}
+[4.531832] (-) TimerEvent: {}
+[4.632505] (-) TimerEvent: {}
+[4.733482] (-) TimerEvent: {}
+[4.834065] (-) TimerEvent: {}
+[4.934996] (-) TimerEvent: {}
+[5.035624] (-) TimerEvent: {}
+[5.136261] (-) TimerEvent: {}
+[5.236909] (-) TimerEvent: {}
+[5.337633] (-) TimerEvent: {}
+[5.438509] (-) TimerEvent: {}
+[5.539164] (-) TimerEvent: {}
+[5.640018] (-) TimerEvent: {}
+[5.741186] (-) TimerEvent: {}
+[5.842965] (-) TimerEvent: {}
+[5.943593] (-) TimerEvent: {}
+[6.044213] (-) TimerEvent: {}
+[6.144913] (-) TimerEvent: {}
+[6.245787] (-) TimerEvent: {}
+[6.346468] (-) TimerEvent: {}
+[6.449496] (-) TimerEvent: {}
+[6.550126] (-) TimerEvent: {}
+[6.650703] (-) TimerEvent: {}
+[6.751339] (-) TimerEvent: {}
+[6.851951] (-) TimerEvent: {}
+[6.952551] (-) TimerEvent: {}
+[7.053191] (-) TimerEvent: {}
+[7.153885] (-) TimerEvent: {}
+[7.254506] (-) TimerEvent: {}
+[7.355106] (-) TimerEvent: {}
+[7.455716] (-) TimerEvent: {}
+[7.556325] (-) TimerEvent: {}
+[7.656963] (-) TimerEvent: {}
+[7.757719] (-) TimerEvent: {}
+[7.858344] (-) TimerEvent: {}
+[7.959084] (-) TimerEvent: {}
+[8.059993] (-) TimerEvent: {}
+[8.160641] (-) TimerEvent: {}
+[8.263283] (-) TimerEvent: {}
+[8.363885] (-) TimerEvent: {}
+[8.464490] (-) TimerEvent: {}
+[8.565125] (-) TimerEvent: {}
+[8.665762] (-) TimerEvent: {}
+[8.766370] (-) TimerEvent: {}
+[8.867012] (-) TimerEvent: {}
+[8.967745] (-) TimerEvent: {}
+[9.068386] (-) TimerEvent: {}
+[9.169703] (-) TimerEvent: {}
+[9.270914] (-) TimerEvent: {}
+[9.371874] (-) TimerEvent: {}
+[9.472532] (-) TimerEvent: {}
+[9.573141] (-) TimerEvent: {}
+[9.674548] (-) TimerEvent: {}
+[9.775333] (-) TimerEvent: {}
+[9.875979] (-) TimerEvent: {}
+[9.976598] (-) TimerEvent: {}
+[10.077284] (-) TimerEvent: {}
+[10.178234] (-) TimerEvent: {}
+[10.279390] (-) TimerEvent: {}
+[10.380035] (-) TimerEvent: {}
+[10.480660] (-) TimerEvent: {}
+[10.581281] (-) TimerEvent: {}
+[10.681930] (-) TimerEvent: {}
+[10.782560] (-) TimerEvent: {}
+[10.883252] (-) TimerEvent: {}
+[10.983821] (-) TimerEvent: {}
+[11.084424] (-) TimerEvent: {}
+[11.185026] (-) TimerEvent: {}
+[11.285779] (-) TimerEvent: {}
+[11.386417] (-) TimerEvent: {}
+[11.487086] (-) TimerEvent: {}
+[11.587949] (-) TimerEvent: {}
+[11.688662] (-) TimerEvent: {}
+[11.789293] (-) TimerEvent: {}
+[11.890254] (-) TimerEvent: {}
+[11.990837] (-) TimerEvent: {}
+[12.091505] (-) TimerEvent: {}
+[12.192150] (-) TimerEvent: {}
+[12.292783] (-) TimerEvent: {}
+[12.393500] (-) TimerEvent: {}
+[12.494157] (-) TimerEvent: {}
+[12.594778] (-) TimerEvent: {}
+[12.695395] (-) TimerEvent: {}
+[12.796102] (-) TimerEvent: {}
+[12.896755] (-) TimerEvent: {}
+[12.997473] (-) TimerEvent: {}
+[13.098727] (-) TimerEvent: {}
+[13.199384] (-) TimerEvent: {}
+[13.300724] (-) TimerEvent: {}
+[13.401317] (-) TimerEvent: {}
+[13.501905] (-) TimerEvent: {}
+[13.602510] (-) TimerEvent: {}
+[13.703173] (-) TimerEvent: {}
+[13.803810] (-) TimerEvent: {}
+[13.904493] (-) TimerEvent: {}
+[14.005982] (-) TimerEvent: {}
+[14.108723] (-) TimerEvent: {}
+[14.209701] (-) TimerEvent: {}
+[14.310604] (-) TimerEvent: {}
+[14.411214] (-) TimerEvent: {}
+[14.512068] (-) TimerEvent: {}
+[14.613105] (-) TimerEvent: {}
+[14.713710] (-) TimerEvent: {}
+[14.814367] (-) TimerEvent: {}
+[14.915013] (-) TimerEvent: {}
+[15.015920] (-) TimerEvent: {}
+[15.116520] (-) TimerEvent: {}
+[15.217368] (-) TimerEvent: {}
+[15.318246] (-) TimerEvent: {}
+[15.419407] (-) TimerEvent: {}
+[15.520314] (-) TimerEvent: {}
+[15.621651] (-) TimerEvent: {}
+[15.722243] (-) TimerEvent: {}
+[15.823025] (-) TimerEvent: {}
+[15.923745] (-) TimerEvent: {}
+[16.024530] (-) TimerEvent: {}
+[16.125126] (-) TimerEvent: {}
+[16.225956] (-) TimerEvent: {}
+[16.326621] (-) TimerEvent: {}
+[16.427329] (-) TimerEvent: {}
+[16.440872] (jetcobot_moveit) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/set_target_position.dir/build.make:76: CMakeFiles/set_target_position.dir/src/set_target_position.cpp.o] Error 1\n'}
+[16.443343] (jetcobot_moveit) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/set_target_position.dir/all] Error 2\n'}
+[16.444639] (jetcobot_moveit) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[16.447384] (jetcobot_moveit) CommandEnded: {'returncode': 2}
+[16.475727] (jetcobot_moveit) JobEnded: {'identifier': 'jetcobot_moveit', 'rc': 2}
+[16.487110] (-) EventReactorShutdown: {}

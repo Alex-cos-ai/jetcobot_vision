@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-318c4f6ff59853f0a57b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "jetcobot_moveit",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "jetcobot_moveit_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jetcobot_moveit_uninstall-9352500e595fc94e8e1a.json",
+					"name" : "jetcobot_moveit_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "set_target_joints::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-set_target_joints-458072ba91e38c49a6b7.json",
+					"name" : "set_target_joints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "set_target_position::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-set_target_position-a82253e171eca203fdc7.json",
+					"name" : "set_target_position",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7e1169297ec19f3386b1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit",
+		"source" : "/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

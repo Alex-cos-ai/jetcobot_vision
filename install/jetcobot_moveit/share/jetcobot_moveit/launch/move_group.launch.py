@@ -1,0 +1,1 @@
+/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/launch/move_group.launch.py

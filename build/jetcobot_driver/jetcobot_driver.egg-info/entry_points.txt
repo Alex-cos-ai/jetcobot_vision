@@ -1,0 +1,4 @@
+[console_scripts]
+sync_plan = jetcobot_driver.sync_plan:main
+sync_plan_nx = jetcobot_driver.sync_plan_nx:main
+

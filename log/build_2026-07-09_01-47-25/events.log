@@ -1,0 +1,229 @@
+[0.000000] (-) TimerEvent: {}
+[0.000894] (-) JobUnselected: {'identifier': 'jetcobot_description'}
+[0.001163] (-) JobUnselected: {'identifier': 'jetcobot_driver'}
+[0.001396] (jetcobot_moveit) JobQueued: {'identifier': 'jetcobot_moveit', 'dependencies': OrderedDict([('jetcobot_description', '/home/jetson/jetcobot_colcon_ws/install/jetcobot_description')])}
+[0.001501] (jetcobot_moveit) JobStarted: {'identifier': 'jetcobot_moveit'}
+[0.018993] (jetcobot_moveit) JobProgress: {'identifier': 'jetcobot_moveit', 'progress': 'cmake'}
+[0.020643] (jetcobot_moveit) JobProgress: {'identifier': 'jetcobot_moveit', 'progress': 'build'}
+[0.021928] (jetcobot_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit', '--', '-j6', '-l6'], 'cwd': '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.55.100 57383 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/jetcobot_ws/install/jetcobot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/jetcobot_colcon_ws'), ('SSH_TTY', '/dev/pts/4'), ('JETSON_L4T', '36.4.4'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jetson/jetcobot_colcon_ws/install:/home/jetson/jetcobot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (8GB ram)'), ('JETSON_SERIAL_NUMBER', '1422725018378'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '68'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', ''), ('JETSON_SOC', 'tegra234'), ('ROS_DOMAIN_ID', '98'), ('AMENT_PREFIX_PATH', '/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit'), ('SSH_CONNECTION', '192.168.55.100 57383 192.168.55.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/jetcobot_ws/install/jetcobot_visual/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_msgs/local/lib/python3.10/dist-packages:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_grasp/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_ctrl/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_advance/lib/python3.10/site-packages:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/lib/python3.10/site-packages/:'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0003')]), 'shell': False}
+[0.099314] (-) TimerEvent: {}
+[0.125123] (jetcobot_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target set_target_position\x1b[0m\n'}
+[0.166219] (jetcobot_moveit) StdoutLine: {'line': b'[ 50%] Built target set_target_joints\n'}
+[0.167562] (jetcobot_moveit) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/set_target_position.dir/src/set_target_position.cpp.o\x1b[0m\n'}
+[0.199497] (-) TimerEvent: {}
+[0.300261] (-) TimerEvent: {}
+[0.400976] (-) TimerEvent: {}
+[0.501698] (-) TimerEvent: {}
+[0.602425] (-) TimerEvent: {}
+[0.731128] (-) TimerEvent: {}
+[0.831818] (-) TimerEvent: {}
+[0.932596] (-) TimerEvent: {}
+[1.033330] (-) TimerEvent: {}
+[1.134144] (-) TimerEvent: {}
+[1.234869] (-) TimerEvent: {}
+[1.335671] (-) TimerEvent: {}
+[1.436380] (-) TimerEvent: {}
+[1.537099] (-) TimerEvent: {}
+[1.637853] (-) TimerEvent: {}
+[1.738558] (-) TimerEvent: {}
+[1.839922] (-) TimerEvent: {}
+[1.941731] (-) TimerEvent: {}
+[2.042445] (-) TimerEvent: {}
+[2.143621] (-) TimerEvent: {}
+[2.245237] (-) TimerEvent: {}
+[2.347515] (-) TimerEvent: {}
+[2.448210] (-) TimerEvent: {}
+[2.548885] (-) TimerEvent: {}
+[2.649534] (-) TimerEvent: {}
+[2.750196] (-) TimerEvent: {}
+[2.850862] (-) TimerEvent: {}
+[2.951563] (-) TimerEvent: {}
+[3.052229] (-) TimerEvent: {}
+[3.152907] (-) TimerEvent: {}
+[3.253574] (-) TimerEvent: {}
+[3.354254] (-) TimerEvent: {}
+[3.454926] (-) TimerEvent: {}
+[3.555619] (-) TimerEvent: {}
+[3.656258] (-) TimerEvent: {}
+[3.756924] (-) TimerEvent: {}
+[3.857601] (-) TimerEvent: {}
+[3.958273] (-) TimerEvent: {}
+[4.058888] (-) TimerEvent: {}
+[4.159894] (-) TimerEvent: {}
+[4.260883] (-) TimerEvent: {}
+[4.361942] (-) TimerEvent: {}
+[4.462976] (-) TimerEvent: {}
+[4.563645] (-) TimerEvent: {}
+[4.664306] (-) TimerEvent: {}
+[4.764982] (-) TimerEvent: {}
+[4.865674] (-) TimerEvent: {}
+[4.966338] (-) TimerEvent: {}
+[5.067023] (-) TimerEvent: {}
+[5.167701] (-) TimerEvent: {}
+[5.268390] (-) TimerEvent: {}
+[5.369073] (-) TimerEvent: {}
+[5.469744] (-) TimerEvent: {}
+[5.570503] (-) TimerEvent: {}
+[5.671235] (-) TimerEvent: {}
+[5.772118] (-) TimerEvent: {}
+[5.872779] (-) TimerEvent: {}
+[5.973417] (-) TimerEvent: {}
+[6.074370] (-) TimerEvent: {}
+[6.175163] (-) TimerEvent: {}
+[6.275888] (-) TimerEvent: {}
+[6.376696] (-) TimerEvent: {}
+[6.477419] (-) TimerEvent: {}
+[6.578210] (-) TimerEvent: {}
+[6.678974] (-) TimerEvent: {}
+[6.779744] (-) TimerEvent: {}
+[6.880532] (-) TimerEvent: {}
+[6.981242] (-) TimerEvent: {}
+[7.082061] (-) TimerEvent: {}
+[7.182793] (-) TimerEvent: {}
+[7.283593] (-) TimerEvent: {}
+[7.384284] (-) TimerEvent: {}
+[7.485038] (-) TimerEvent: {}
+[7.585847] (-) TimerEvent: {}
+[7.686783] (-) TimerEvent: {}
+[7.787633] (-) TimerEvent: {}
+[7.888372] (-) TimerEvent: {}
+[7.989228] (-) TimerEvent: {}
+[8.089986] (-) TimerEvent: {}
+[8.190837] (-) TimerEvent: {}
+[8.291663] (-) TimerEvent: {}
+[8.392437] (-) TimerEvent: {}
+[8.493214] (-) TimerEvent: {}
+[8.593995] (-) TimerEvent: {}
+[8.694885] (-) TimerEvent: {}
+[8.796140] (-) TimerEvent: {}
+[8.897229] (-) TimerEvent: {}
+[8.998282] (-) TimerEvent: {}
+[9.099269] (-) TimerEvent: {}
+[9.200100] (-) TimerEvent: {}
+[9.300921] (-) TimerEvent: {}
+[9.401740] (-) TimerEvent: {}
+[9.502540] (-) TimerEvent: {}
+[9.603417] (-) TimerEvent: {}
+[9.704222] (-) TimerEvent: {}
+[9.804921] (-) TimerEvent: {}
+[9.905754] (-) TimerEvent: {}
+[10.006618] (-) TimerEvent: {}
+[10.107626] (-) TimerEvent: {}
+[10.208385] (-) TimerEvent: {}
+[10.309023] (-) TimerEvent: {}
+[10.409743] (-) TimerEvent: {}
+[10.510481] (-) TimerEvent: {}
+[10.611202] (-) TimerEvent: {}
+[10.711916] (-) TimerEvent: {}
+[10.812657] (-) TimerEvent: {}
+[10.913329] (-) TimerEvent: {}
+[11.013999] (-) TimerEvent: {}
+[11.114668] (-) TimerEvent: {}
+[11.215389] (-) TimerEvent: {}
+[11.316076] (-) TimerEvent: {}
+[11.416755] (-) TimerEvent: {}
+[11.517551] (-) TimerEvent: {}
+[11.618186] (-) TimerEvent: {}
+[11.718845] (-) TimerEvent: {}
+[11.819535] (-) TimerEvent: {}
+[11.920191] (-) TimerEvent: {}
+[12.020837] (-) TimerEvent: {}
+[12.121484] (-) TimerEvent: {}
+[12.222151] (-) TimerEvent: {}
+[12.322809] (-) TimerEvent: {}
+[12.423451] (-) TimerEvent: {}
+[12.524176] (-) TimerEvent: {}
+[12.624932] (-) TimerEvent: {}
+[12.725683] (-) TimerEvent: {}
+[12.826440] (-) TimerEvent: {}
+[12.927106] (-) TimerEvent: {}
+[13.028375] (-) TimerEvent: {}
+[13.129088] (-) TimerEvent: {}
+[13.229829] (-) TimerEvent: {}
+[13.330692] (-) TimerEvent: {}
+[13.431379] (-) TimerEvent: {}
+[13.532120] (-) TimerEvent: {}
+[13.632833] (-) TimerEvent: {}
+[13.734119] (-) TimerEvent: {}
+[13.835995] (-) TimerEvent: {}
+[13.936634] (-) TimerEvent: {}
+[14.037495] (-) TimerEvent: {}
+[14.138229] (-) TimerEvent: {}
+[14.238912] (-) TimerEvent: {}
+[14.339545] (-) TimerEvent: {}
+[14.440962] (-) TimerEvent: {}
+[14.542788] (-) TimerEvent: {}
+[14.644117] (-) TimerEvent: {}
+[14.744907] (-) TimerEvent: {}
+[14.845581] (-) TimerEvent: {}
+[14.946258] (-) TimerEvent: {}
+[15.051513] (-) TimerEvent: {}
+[15.152288] (-) TimerEvent: {}
+[15.253016] (-) TimerEvent: {}
+[15.353645] (-) TimerEvent: {}
+[15.454525] (-) TimerEvent: {}
+[15.555243] (-) TimerEvent: {}
+[15.655954] (-) TimerEvent: {}
+[15.756705] (-) TimerEvent: {}
+[15.857476] (-) TimerEvent: {}
+[15.959149] (-) TimerEvent: {}
+[16.061056] (-) TimerEvent: {}
+[16.161744] (-) TimerEvent: {}
+[16.262394] (-) TimerEvent: {}
+[16.363166] (-) TimerEvent: {}
+[16.463966] (-) TimerEvent: {}
+[16.564652] (-) TimerEvent: {}
+[16.587458] (jetcobot_moveit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable set_target_position\x1b[0m\n'}
+[16.664811] (-) TimerEvent: {}
+[16.765442] (-) TimerEvent: {}
+[16.866111] (-) TimerEvent: {}
+[16.966772] (-) TimerEvent: {}
+[17.067437] (-) TimerEvent: {}
+[17.168093] (-) TimerEvent: {}
+[17.196255] (jetcobot_moveit) StdoutLine: {'line': b'[100%] Built target set_target_position\n'}
+[17.232969] (jetcobot_moveit) CommandEnded: {'returncode': 0}
+[17.236896] (jetcobot_moveit) JobProgress: {'identifier': 'jetcobot_moveit', 'progress': 'install'}
+[17.258947] (jetcobot_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit'], 'cwd': '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.55.100 57383 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/jetcobot_ws/install/jetcobot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/jetcobot_colcon_ws'), ('SSH_TTY', '/dev/pts/4'), ('JETSON_L4T', '36.4.4'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jetson/jetcobot_colcon_ws/install:/home/jetson/jetcobot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (8GB ram)'), ('JETSON_SERIAL_NUMBER', '1422725018378'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '68'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', ''), ('JETSON_SOC', 'tegra234'), ('ROS_DOMAIN_ID', '98'), ('AMENT_PREFIX_PATH', '/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit'), ('SSH_CONNECTION', '192.168.55.100 57383 192.168.55.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/jetcobot_ws/install/jetcobot_visual/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_msgs/local/lib/python3.10/dist-packages:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_grasp/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_ctrl/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_advance/lib/python3.10/site-packages:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/lib/python3.10/site-packages/:'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0003')]), 'shell': False}
+[17.268242] (-) TimerEvent: {}
+[17.276765] (jetcobot_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.277981] (jetcobot_moveit) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.278703] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/set_target_joints\n'}
+[17.279017] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/set_target_position\n'}
+[17.279837] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/demo.launch.py\n'}
+[17.280130] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/move_group.launch.py\n'}
+[17.280414] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/moveit_rviz.launch.py\n'}
+[17.280884] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/rsp.launch.py\n'}
+[17.281281] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/setup_assistant.launch.py\n'}
+[17.281577] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/spawn_controllers.launch.py\n'}
+[17.281863] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/static_virtual_joint_tfs.launch.py\n'}
+[17.282099] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/warehouse_db.launch.py\n'}
+[17.282477] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/initial_positions.yaml\n'}
+[17.282883] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/jetcobot.ros2_control.xacro\n'}
+[17.283310] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/jetcobot.srdf\n'}
+[17.283690] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/jetcobot.urdf.xacro\n'}
+[17.284019] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/joint_limits.yaml\n'}
+[17.284323] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/kinematics.yaml\n'}
+[17.284610] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/moveit.rviz\n'}
+[17.284973] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/moveit_controllers.yaml\n'}
+[17.285168] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/pilz_cartesian_limits.yaml\n'}
+[17.285355] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/ros2_controllers.yaml\n'}
+[17.285802] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/.setup_assistant\n'}
+[17.286030] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/ament_index/resource_index/package_run_dependencies/jetcobot_moveit\n'}
+[17.286221] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/ament_index/resource_index/parent_prefix_path/jetcobot_moveit\n'}
+[17.287800] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/environment/ament_prefix_path.sh\n'}
+[17.288103] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/environment/ament_prefix_path.dsv\n'}
+[17.288325] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/environment/path.sh\n'}
+[17.288531] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/environment/path.dsv\n'}
+[17.288731] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/local_setup.bash\n'}
+[17.288923] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/local_setup.sh\n'}
+[17.289179] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/local_setup.zsh\n'}
+[17.289397] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/local_setup.dsv\n'}
+[17.289593] (jetcobot_moveit) StdoutLine: {'line': b'-- Symlinking: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/package.dsv\n'}
+[17.305115] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/ament_index/resource_index/packages/jetcobot_moveit\n'}
+[17.305711] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/cmake/jetcobot_moveitConfig.cmake\n'}
+[17.306097] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/cmake/jetcobot_moveitConfig-version.cmake\n'}
+[17.306331] (jetcobot_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/package.xml\n'}
+[17.310500] (jetcobot_moveit) CommandEnded: {'returncode': 0}
+[17.371522] (jetcobot_moveit) JobEnded: {'identifier': 'jetcobot_moveit', 'rc': 0}
+[17.372501] (-) TimerEvent: {}
+[17.372749] (-) EventReactorShutdown: {}

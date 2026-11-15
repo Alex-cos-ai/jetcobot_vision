@@ -1,0 +1,4 @@
+source;share/jetcobot_moveit/local_setup.bash
+source;share/jetcobot_moveit/local_setup.dsv
+source;share/jetcobot_moveit/local_setup.sh
+source;share/jetcobot_moveit/local_setup.zsh

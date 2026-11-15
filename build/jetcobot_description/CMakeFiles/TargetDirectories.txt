@@ -1,0 +1,9 @@
+/home/jetson/jetcobot_colcon_ws/build/jetcobot_description/CMakeFiles/uninstall.dir
+/home/jetson/jetcobot_colcon_ws/build/jetcobot_description/CMakeFiles/jetcobot_description_uninstall.dir
+/home/jetson/jetcobot_colcon_ws/build/jetcobot_description/CMakeFiles/test.dir
+/home/jetson/jetcobot_colcon_ws/build/jetcobot_description/CMakeFiles/edit_cache.dir
+/home/jetson/jetcobot_colcon_ws/build/jetcobot_description/CMakeFiles/rebuild_cache.dir
+/home/jetson/jetcobot_colcon_ws/build/jetcobot_description/CMakeFiles/list_install_components.dir
+/home/jetson/jetcobot_colcon_ws/build/jetcobot_description/CMakeFiles/install.dir
+/home/jetson/jetcobot_colcon_ws/build/jetcobot_description/CMakeFiles/install/local.dir
+/home/jetson/jetcobot_colcon_ws/build/jetcobot_description/CMakeFiles/install/strip.dir

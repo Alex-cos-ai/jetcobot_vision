@@ -1,0 +1,53 @@
+[0.025s] Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit': AMENT_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit -DCMAKE_INSTALL_PREFIX=/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit
+[0.123s] -- The C compiler identification is GNU 11.4.0
+[0.232s] -- The CXX compiler identification is GNU 11.4.0
+[0.251s] -- Detecting C compiler ABI info
+[0.406s] -- Detecting C compiler ABI info - done
+[0.429s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.429s] -- Detecting C compile features
+[0.430s] -- Detecting C compile features - done
+[0.438s] -- Detecting CXX compiler ABI info
+[0.595s] -- Detecting CXX compiler ABI info - done
+[0.615s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.616s] -- Detecting CXX compile features
+[0.618s] -- Detecting CXX compile features - done
+[0.627s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.047s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.274s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.381s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.392s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.411s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.435s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.467s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.553s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.559s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.710s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.765s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.846s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.865s] -- Looking for pthread.h
+[2.008s] -- Looking for pthread.h - found
+[2.008s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.165s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.169s] -- Found Threads: TRUE  
+[2.351s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[2.351s]   By not providing "Findmoveit_ros_planning_interface.cmake" in
+[2.351s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[2.352s]   configuration file provided by "moveit_ros_planning_interface", but CMake
+[2.352s]   did not find one.
+[2.352s] 
+[2.352s]   Could not find a package configuration file provided by
+[2.353s]   "moveit_ros_planning_interface" with any of the following names:
+[2.353s] 
+[2.353s]     moveit_ros_planning_interfaceConfig.cmake
+[2.353s]     moveit_ros_planning_interface-config.cmake
+[2.353s] 
+[2.354s]   Add the installation prefix of "moveit_ros_planning_interface" to
+[2.354s]   CMAKE_PREFIX_PATH or set "moveit_ros_planning_interface_DIR" to a directory
+[2.354s]   containing one of the above files.  If "moveit_ros_planning_interface"
+[2.354s]   provides a separate development package or SDK, be sure it has been
+[2.354s]   installed.
+[2.355s] 
+[2.355s] [0m
+[2.355s] -- Configuring incomplete, errors occurred!
+[2.355s] See also "/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/CMakeFiles/CMakeOutput.log".
+[2.373s] Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit' returned '1': AMENT_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/home/jetson/yahboom_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit -DCMAKE_INSTALL_PREFIX=/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit

@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.000603] (-) JobUnselected: {'identifier': 'jetcobot_description'}
+[0.000697] (-) JobUnselected: {'identifier': 'jetcobot_moveit'}
+[0.000875] (jetcobot_driver) JobQueued: {'identifier': 'jetcobot_driver', 'dependencies': OrderedDict()}
+[0.001500] (jetcobot_driver) JobStarted: {'identifier': 'jetcobot_driver'}
+[0.099927] (-) TimerEvent: {}
+[0.200264] (-) TimerEvent: {}
+[0.300583] (-) TimerEvent: {}
+[0.400910] (-) TimerEvent: {}
+[0.501225] (-) TimerEvent: {}
+[0.601548] (-) TimerEvent: {}
+[0.701862] (-) TimerEvent: {}
+[0.802194] (-) TimerEvent: {}
+[0.902524] (-) TimerEvent: {}
+[1.002829] (-) TimerEvent: {}
+[1.103142] (-) TimerEvent: {}
+[1.203453] (-) TimerEvent: {}
+[1.303791] (-) TimerEvent: {}
+[1.404165] (-) TimerEvent: {}
+[1.504512] (-) TimerEvent: {}
+[1.604875] (-) TimerEvent: {}
+[1.705191] (-) TimerEvent: {}
+[1.805579] (-) TimerEvent: {}
+[1.891382] (jetcobot_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/jetcobot_driver', 'build', '--build-base', '/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build', 'install', '--record', '/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/jetcobot_colcon_ws/src/jetcobot_driver', 'env': {'LANGUAGE': 'en_US:en', 'USER': 'jetson', 'SSH_CLIENT': '192.168.55.100 42140 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jetson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '23', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'PWD': '/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.55.100 42140 192.168.55.1 22', 'PYTHONPATH': '/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1'}, 'shell': False}
+[1.905636] (-) TimerEvent: {}
+[2.005920] (-) TimerEvent: {}
+[2.106252] (-) TimerEvent: {}
+[2.206578] (-) TimerEvent: {}
+[2.306897] (-) TimerEvent: {}
+[2.407182] (-) TimerEvent: {}
+[2.424566] (jetcobot_driver) StdoutLine: {'line': b'running egg_info\n'}
+[2.426209] (jetcobot_driver) StdoutLine: {'line': b'writing ../../build/jetcobot_driver/jetcobot_driver.egg-info/PKG-INFO\n'}
+[2.454654] (jetcobot_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/jetcobot_driver/jetcobot_driver.egg-info/dependency_links.txt\n'}
+[2.455244] (jetcobot_driver) StdoutLine: {'line': b'writing entry points to ../../build/jetcobot_driver/jetcobot_driver.egg-info/entry_points.txt\n'}
+[2.455485] (jetcobot_driver) StdoutLine: {'line': b'writing requirements to ../../build/jetcobot_driver/jetcobot_driver.egg-info/requires.txt\n'}
+[2.455601] (jetcobot_driver) StdoutLine: {'line': b'writing top-level names to ../../build/jetcobot_driver/jetcobot_driver.egg-info/top_level.txt\n'}
+[2.459288] (jetcobot_driver) StdoutLine: {'line': b"reading manifest file '../../build/jetcobot_driver/jetcobot_driver.egg-info/SOURCES.txt'\n"}
+[2.461533] (jetcobot_driver) StdoutLine: {'line': b"writing manifest file '../../build/jetcobot_driver/jetcobot_driver.egg-info/SOURCES.txt'\n"}
+[2.461789] (jetcobot_driver) StdoutLine: {'line': b'running build\n'}
+[2.461895] (jetcobot_driver) StdoutLine: {'line': b'running build_py\n'}
+[2.462181] (jetcobot_driver) StdoutLine: {'line': b'copying jetcobot_driver/sync_plan.py -> /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build/lib/jetcobot_driver\n'}
+[2.462815] (jetcobot_driver) StdoutLine: {'line': b'running install\n'}
+[2.463408] (jetcobot_driver) StdoutLine: {'line': b'running install_lib\n'}
+[2.464907] (jetcobot_driver) StdoutLine: {'line': b'copying /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build/lib/jetcobot_driver/sync_plan.py -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot_driver\n'}
+[2.466080] (jetcobot_driver) StdoutLine: {'line': b'byte-compiling /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot_driver/sync_plan.py to sync_plan.cpython-310.pyc\n'}
+[2.467316] (jetcobot_driver) StdoutLine: {'line': b'running install_data\n'}
+[2.467543] (jetcobot_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.473721] (jetcobot_driver) StdoutLine: {'line': b"removing '/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot_driver-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.474257] (jetcobot_driver) StdoutLine: {'line': b'Copying ../../build/jetcobot_driver/jetcobot_driver.egg-info to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot_driver-0.0.0-py3.10.egg-info\n'}
+[2.482980] (jetcobot_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[2.507330] (-) TimerEvent: {}
+[2.522456] (jetcobot_driver) StdoutLine: {'line': b'Installing sync_plan script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver\n'}
+[2.522863] (jetcobot_driver) StdoutLine: {'line': b'Installing sync_plan_nx script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver\n'}
+[2.523412] (jetcobot_driver) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/install.log'\n"}
+[2.589968] (jetcobot_driver) CommandEnded: {'returncode': 0}
+[2.607439] (-) TimerEvent: {}
+[2.631100] (jetcobot_driver) JobEnded: {'identifier': 'jetcobot_driver', 'rc': 0}
+[2.632698] (-) EventReactorShutdown: {}

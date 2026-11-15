@@ -1,0 +1,1 @@
+/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/launch/warehouse_db.launch.py
