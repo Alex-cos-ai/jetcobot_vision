@@ -1,0 +1,28 @@
+visual_servo_6dof:
+  ros__parameters:
+    image_topic: /wrist_camera/image_raw
+    camera_info_topic: /wrist_camera/camera_info
+    command_topic: /servo_node/delta_twist_cmds
+    base_frame: base_link
+    command_frame: 6_Link
+    # auto selects the largest red, green or blue region.
+    target_colour: auto
+    calibration_file: /home/jetson/charuco_handeye_result_filtered.json
+    control_frequency: 20.0
+    target_timeout: 0.35
+    # Apparent scale is a relative distance estimate for the same object.
+    nominal_depth_m: 0.45
+    target_width_px: 140.0
+    min_area_px: 250.0
+    max_linear_velocity: 0.01
+    max_angular_velocity: 0.04
+    max_linear_acceleration: 0.03
+    max_angular_acceleration: 0.1
+    filter_alpha: 0.35
+    deadband_u_px: 4.0
+    deadband_v_px: 4.0
+    deadband_width_px: 5.0
+    publish_debug_image: true
+    # Two angular errors (rad) and a relative range error (m).
+    q_aim: [4.0, 4.0, 1.0]
+    r_aim: [4.0, 4.0, 16.0]

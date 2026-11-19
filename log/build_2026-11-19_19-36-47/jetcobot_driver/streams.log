@@ -1,0 +1,19 @@
+[1.691s] Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver': PYTHONPATH=/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build --no-deps symlink_data
+[2.302s] running develop
+[2.763s] running egg_info
+[2.764s] writing jetcobot_driver.egg-info/PKG-INFO
+[2.764s] writing dependency_links to jetcobot_driver.egg-info/dependency_links.txt
+[2.764s] writing entry points to jetcobot_driver.egg-info/entry_points.txt
+[2.765s] writing requirements to jetcobot_driver.egg-info/requires.txt
+[2.765s] writing top-level names to jetcobot_driver.egg-info/top_level.txt
+[2.769s] reading manifest file 'jetcobot_driver.egg-info/SOURCES.txt'
+[2.771s] writing manifest file 'jetcobot_driver.egg-info/SOURCES.txt'
+[2.857s] running build_ext
+[2.858s] Creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot-driver.egg-link (link to .)
+[2.860s] Installing sync_plan script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+[2.860s] Installing sync_plan_nx script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+[2.860s] Installing visual_servo_6dof script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+[2.861s] 
+[2.861s] Installed /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver
+[2.861s] running symlink_data
+[2.977s] Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver' returned '0': PYTHONPATH=/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build --no-deps symlink_data

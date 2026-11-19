@@ -1,0 +1,59 @@
+[0.035s] Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit': CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake --build /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit -- -j6 -l6
+[0.233s] [ 50%] Built target set_target_joints
+[0.235s] [100%] Built target set_target_position
+[0.268s] Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit' returned '0': CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake --build /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit -- -j6 -l6
+[0.294s] Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit': CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake --install /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit
+[0.313s] -- Install configuration: ""
+[0.313s] -- Execute custom install script
+[0.314s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/set_target_joints
+[0.314s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/set_target_position
+[0.315s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/demo.launch.py
+[0.315s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/move_group.launch.py
+[0.315s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/moveit_rviz.launch.py
+[0.316s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/rsp.launch.py
+[0.316s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/setup_assistant.launch.py
+[0.316s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/spawn_controllers.launch.py
+[0.316s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/static_virtual_joint_tfs.launch.py
+[0.316s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/warehouse_db.launch.py
+[0.317s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/charuco_handeye.yaml
+[0.317s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/initial_positions.yaml
+[0.317s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/jetcobot.ros2_control.xacro
+[0.317s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/jetcobot.srdf
+[0.318s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/jetcobot.urdf.xacro
+[0.318s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/joint_limits.yaml
+[0.318s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/kinematics.yaml
+[0.318s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/moveit.rviz
+[0.318s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/moveit_controllers.yaml
+[0.319s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/ompl_planning.yaml
+[0.319s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/pilz_cartesian_limits.yaml
+[0.319s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/ros2_controllers.yaml
+[0.319s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/detect_marker_debug.py
+[0.320s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/get_target_joint_angles.py
+[0.320s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/handeye_solve.py
+[0.320s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/handeye_collect.py
+[0.320s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/charuco_board.py
+[0.321s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/docs/charuco_handeye.md
+[0.321s] -- Symlinking: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/docs/pregrasp_new_handeye.md
+[0.369s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/.setup_assistant
+[0.369s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/ament_index/resource_index/package_run_dependencies/jetcobot_moveit
+[0.369s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/ament_index/resource_index/parent_prefix_path/jetcobot_moveit
+[0.369s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/environment/ament_prefix_path.sh
+[0.369s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/environment/ament_prefix_path.dsv
+[0.369s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/environment/path.sh
+[0.369s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/environment/path.dsv
+[0.371s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/local_setup.bash
+[0.372s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/local_setup.sh
+[0.372s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/local_setup.zsh
+[0.372s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/local_setup.dsv
+[0.372s] -- Symlinking: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/package.dsv
+[0.403s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/ament_index/resource_index/packages/jetcobot_moveit
+[0.404s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/cmake/jetcobot_moveitConfig.cmake
+[0.405s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/cmake/jetcobot_moveitConfig-version.cmake
+[0.405s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/package.xml
+[0.406s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/handeye_collect
+[0.406s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/handeye_solve
+[0.407s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/charuco_handeye_collect
+[0.407s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/charuco_handeye_solve
+[0.408s] -- Installing: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/pregrasp_move
+[0.409s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/local_joint_camera_control
+[0.420s] Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit' returned '0': CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake --install /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit

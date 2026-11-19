@@ -1,0 +1,165 @@
+[0.431s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'jetcobot_moveit', '--symlink-install']
+[0.431s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['jetcobot_moveit'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff85836320>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff85835570>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff85835570>>, mixin_verb=('build',))
+[1.005s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[1.017s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[1.017s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[1.018s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[1.018s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) discover
+[1.018s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[1.019s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/jetson/jetcobot_colcon_ws'
+[1.019s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.019s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore'
+[1.020s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore_ament_install'
+[1.021s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_pkg']
+[1.021s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_pkg'
+[1.021s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_meta']
+[1.022s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_meta'
+[1.023s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ros']
+[1.023s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ros'
+[1.105s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['cmake', 'python']
+[1.105s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'cmake'
+[1.105s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python'
+[1.105s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['python_setup_py']
+[1.106s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python_setup_py'
+[1.106s] colcon.colcon_core.package_identification Level 1 _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.106s] colcon.colcon_core.package_identification Level 1 _identify(build) by extension 'ignore'
+[1.106s] colcon.colcon_core.package_identification Level 1 _identify(build) ignored
+[1.107s] colcon.colcon_core.package_identification Level 1 _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.107s] colcon.colcon_core.package_identification Level 1 _identify(install) by extension 'ignore'
+[1.107s] colcon.colcon_core.package_identification Level 1 _identify(install) ignored
+[1.107s] colcon.colcon_core.package_identification Level 1 _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.107s] colcon.colcon_core.package_identification Level 1 _identify(log) by extension 'ignore'
+[1.107s] colcon.colcon_core.package_identification Level 1 _identify(log) ignored
+[1.107s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.108s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore'
+[1.108s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore_ament_install'
+[1.108s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_pkg']
+[1.108s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_pkg'
+[1.108s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_meta']
+[1.110s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_meta'
+[1.116s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ros']
+[1.116s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ros'
+[1.117s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['cmake', 'python']
+[1.118s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'cmake'
+[1.119s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python'
+[1.119s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['python_setup_py']
+[1.119s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python_setup_py'
+[1.120s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.120s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_description) by extension 'ignore'
+[1.120s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_description) by extension 'ignore_ament_install'
+[1.121s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_description) by extensions ['colcon_pkg']
+[1.121s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_description) by extension 'colcon_pkg'
+[1.121s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_description) by extensions ['colcon_meta']
+[1.123s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_description) by extension 'colcon_meta'
+[1.124s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_description) by extensions ['ros']
+[1.125s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_description) by extension 'ros'
+[1.132s] colcon.colcon_core.package_identification DEBUG Package 'src/jetcobot_description' with type 'ros.ament_cmake' and name 'jetcobot_description'
+[1.133s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.133s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_driver) by extension 'ignore'
+[1.133s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_driver) by extension 'ignore_ament_install'
+[1.134s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_driver) by extensions ['colcon_pkg']
+[1.134s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_driver) by extension 'colcon_pkg'
+[1.134s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_driver) by extensions ['colcon_meta']
+[1.134s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_driver) by extension 'colcon_meta'
+[1.134s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_driver) by extensions ['ros']
+[1.134s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_driver) by extension 'ros'
+[1.136s] colcon.colcon_core.package_identification DEBUG Package 'src/jetcobot_driver' with type 'ros.ament_python' and name 'jetcobot_driver'
+[1.136s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[1.136s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_moveit) by extension 'ignore'
+[1.137s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_moveit) by extension 'ignore_ament_install'
+[1.137s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_moveit) by extensions ['colcon_pkg']
+[1.137s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_moveit) by extension 'colcon_pkg'
+[1.137s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_moveit) by extensions ['colcon_meta']
+[1.137s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_moveit) by extension 'colcon_meta'
+[1.137s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_moveit) by extensions ['ros']
+[1.137s] colcon.colcon_core.package_identification Level 1 _identify(src/jetcobot_moveit) by extension 'ros'
+[1.140s] colcon.colcon_core.package_identification DEBUG Package 'src/jetcobot_moveit' with type 'ros.ament_cmake' and name 'jetcobot_moveit'
+[1.140s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
+[1.140s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) discover
+[1.140s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) using defaults
+[1.140s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) discover
+[1.140s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) using defaults
+[1.179s] colcon.colcon_core.package_selection INFO Skipping not selected package 'jetcobot_description' in 'src/jetcobot_description'
+[1.179s] colcon.colcon_core.package_selection INFO Skipping not selected package 'jetcobot_driver' in 'src/jetcobot_driver'
+[1.181s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) check parameters
+[1.181s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) discover
+[1.186s] colcon.colcon_installed_package_information.package_discovery DEBUG Found 3 installed packages in /home/jetson/jetcobot_colcon_ws/install
+[1.187s] colcon.colcon_installed_package_information.package_discovery DEBUG Found 1 installed packages in /home/jetson/install
+[1.189s] colcon.colcon_installed_package_information.package_discovery DEBUG Found 6 installed packages in /home/jetson/jetcobot_ws/install
+[1.240s] colcon.colcon_installed_package_information.package_discovery DEBUG Found 367 installed packages in /opt/ros/humble
+[1.246s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) using defaults
+[1.363s] colcon.colcon_core.verb Level 5 set package 'jetcobot_moveit' build argument 'cmake_args' from command line to 'None'
+[1.363s] colcon.colcon_core.verb Level 5 set package 'jetcobot_moveit' build argument 'cmake_target' from command line to 'None'
+[1.364s] colcon.colcon_core.verb Level 5 set package 'jetcobot_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.364s] colcon.colcon_core.verb Level 5 set package 'jetcobot_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[1.364s] colcon.colcon_core.verb Level 5 set package 'jetcobot_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[1.365s] colcon.colcon_core.verb Level 5 set package 'jetcobot_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[1.365s] colcon.colcon_core.verb Level 5 set package 'jetcobot_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[1.365s] colcon.colcon_core.verb Level 5 set package 'jetcobot_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[1.365s] colcon.colcon_core.verb Level 5 set package 'jetcobot_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.365s] colcon.colcon_core.verb DEBUG Building package 'jetcobot_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit', 'merge_install': False, 'path': '/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit', 'symlink_install': True, 'test_result_base': None}
+[1.366s] colcon.colcon_core.executor INFO Executing jobs using 'parallel' executor
+[1.369s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete
+[1.370s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit' with build type 'ament_cmake'
+[1.370s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit'
+[1.375s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.376s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.376s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.490s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit': CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake --build /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit -- -j6 -l6
+[5.920s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit' returned '0': CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake --build /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit -- -j6 -l6
+[5.943s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit': CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake --install /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit
+[6.001s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(jetcobot_moveit)
+[6.005s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit' returned '0': CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake --install /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit
+[6.012s] colcon.colcon_core.environment Level 1 checking '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit' for CMake module files
+[6.014s] colcon.colcon_core.environment Level 1 checking '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit' for CMake config files
+[6.015s] colcon.colcon_core.shell Level 1 create_environment_hook('jetcobot_moveit', 'cmake_prefix_path')
+[6.016s] colcon.colcon_core.shell INFO Creating environment hook '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/hook/cmake_prefix_path.ps1'
+[6.018s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/hook/cmake_prefix_path.dsv'
+[6.020s] colcon.colcon_core.shell INFO Creating environment hook '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/hook/cmake_prefix_path.sh'
+[6.022s] colcon.colcon_core.environment Level 1 checking '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib'
+[6.023s] colcon.colcon_core.environment Level 1 checking '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/bin'
+[6.023s] colcon.colcon_core.environment Level 1 checking '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/pkgconfig/jetcobot_moveit.pc'
+[6.024s] colcon.colcon_core.environment Level 1 checking '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/python3.10/site-packages'
+[6.024s] colcon.colcon_core.environment Level 1 checking '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/bin'
+[6.025s] colcon.colcon_core.shell INFO Creating package script '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/package.ps1'
+[6.028s] colcon.colcon_core.shell INFO Creating package descriptor '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/package.dsv'
+[6.029s] colcon.colcon_core.shell INFO Creating package script '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/package.sh'
+[6.031s] colcon.colcon_core.shell INFO Creating package script '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/package.bash'
+[6.033s] colcon.colcon_core.shell INFO Creating package script '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/package.zsh'
+[6.034s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/colcon-core/packages/jetcobot_moveit)
+[6.035s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(jetcobot_moveit)
+[6.036s] colcon.colcon_core.environment Level 1 checking '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit' for CMake module files
+[6.037s] colcon.colcon_core.environment Level 1 checking '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit' for CMake config files
+[6.038s] colcon.colcon_core.shell Level 1 create_environment_hook('jetcobot_moveit', 'cmake_prefix_path')
+[6.039s] colcon.colcon_core.shell INFO Creating environment hook '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/hook/cmake_prefix_path.ps1'
+[6.040s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/hook/cmake_prefix_path.dsv'
+[6.041s] colcon.colcon_core.shell INFO Creating environment hook '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/hook/cmake_prefix_path.sh'
+[6.048s] colcon.colcon_core.environment Level 1 checking '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib'
+[6.049s] colcon.colcon_core.environment Level 1 checking '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/bin'
+[6.049s] colcon.colcon_core.environment Level 1 checking '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/pkgconfig/jetcobot_moveit.pc'
+[6.051s] colcon.colcon_core.environment Level 1 checking '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/python3.10/site-packages'
+[6.051s] colcon.colcon_core.environment Level 1 checking '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/bin'
+[6.052s] colcon.colcon_core.shell INFO Creating package script '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/package.ps1'
+[6.055s] colcon.colcon_core.shell INFO Creating package descriptor '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/package.dsv'
+[6.056s] colcon.colcon_core.shell INFO Creating package script '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/package.sh'
+[6.066s] colcon.colcon_core.shell INFO Creating package script '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/package.bash'
+[6.085s] colcon.colcon_core.shell INFO Creating package script '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/package.zsh'
+[6.087s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/colcon-core/packages/jetcobot_moveit)
+[6.090s] colcon.colcon_parallel_executor.executor.parallel DEBUG closing loop
+[6.090s] colcon.colcon_parallel_executor.executor.parallel DEBUG loop closed
+[6.090s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete finished with '0'
+[6.093s] colcon.colcon_core.event_reactor DEBUG joining thread
+[6.117s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.118s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.118s] colcon.colcon_notification.desktop_notification INFO Sending desktop notification using 'notify2'
+[6.154s] colcon.colcon_core.event_reactor DEBUG joined thread
+[6.155s] colcon.colcon_core.shell INFO Creating prefix script '/home/jetson/jetcobot_colcon_ws/install/local_setup.ps1'
+[6.158s] colcon.colcon_core.shell INFO Creating prefix util module '/home/jetson/jetcobot_colcon_ws/install/_local_setup_util_ps1.py'
+[6.163s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/jetson/jetcobot_colcon_ws/install/setup.ps1'
+[6.167s] colcon.colcon_core.shell INFO Creating prefix script '/home/jetson/jetcobot_colcon_ws/install/local_setup.sh'
+[6.169s] colcon.colcon_core.shell INFO Creating prefix util module '/home/jetson/jetcobot_colcon_ws/install/_local_setup_util_sh.py'
+[6.171s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/jetson/jetcobot_colcon_ws/install/setup.sh'
+[6.175s] colcon.colcon_core.shell INFO Creating prefix script '/home/jetson/jetcobot_colcon_ws/install/local_setup.bash'
+[6.176s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/jetson/jetcobot_colcon_ws/install/setup.bash'
+[6.180s] colcon.colcon_core.shell INFO Creating prefix script '/home/jetson/jetcobot_colcon_ws/install/local_setup.zsh'
+[6.181s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/jetson/jetcobot_colcon_ws/install/setup.zsh'

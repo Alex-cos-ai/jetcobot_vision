@@ -46,6 +46,30 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   include("/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/jetcobot_moveit" TYPE PROGRAM RENAME "handeye_collect" FILES "/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/script/handeye_collect.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/jetcobot_moveit" TYPE PROGRAM RENAME "handeye_solve" FILES "/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/script/handeye_solve.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/jetcobot_moveit" TYPE PROGRAM RENAME "charuco_handeye_collect" FILES "/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/script/charuco_handeye_collect.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/jetcobot_moveit" TYPE PROGRAM RENAME "charuco_handeye_solve" FILES "/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/script/charuco_handeye_solve.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/jetcobot_moveit" TYPE PROGRAM RENAME "pregrasp_move" FILES "/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/script/pregrasp_move.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/jetcobot_moveit" TYPE PROGRAM RENAME "local_joint_camera_control" FILES "/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/script/local_joint_camera_control.py")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

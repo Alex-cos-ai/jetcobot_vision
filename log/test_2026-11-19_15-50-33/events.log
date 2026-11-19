@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000280] (jetcobot_moveit) JobQueued: {'identifier': 'jetcobot_moveit', 'dependencies': OrderedDict([('jetcobot_description', '/home/jetson/jetcobot_colcon_ws/install/jetcobot_description'), ('jetcobot_moveit', '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit')])}
+[0.001115] (jetcobot_moveit) JobStarted: {'identifier': 'jetcobot_moveit'}
+[0.053979] (jetcobot_moveit) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process', '-R', 'pregrasp_handeye_test', '--output-on-failure'], 'cwd': '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/jetson/jetcobot_colcon_ws'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'jetson'), ('LC_TIME', 'en_US.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"en-us","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/jetson/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","messagesFile":"/home/jetson/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/385651c938df8a906869babee516bffd0ddb9829/nls.messages.json","corruptMarkerFile":"/home/jetson/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"75539731208fa508a5b042c8fe051beb.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/jetson/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","_cacheRoot":"/home/jetson/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn","_resolvedLanguagePackCoreLocation":"/home/jetson/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/385651c938df8a906869babee516bffd0ddb9829","_corruptedFile":"/home/jetson/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"}'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jetson/jetcobot_ws/install/jetcobot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/jetson'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-ed92d0d2-1.10-main.sock'), ('JETSON_L4T', '36.4.4'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('PAGER', 'cat'), ('LC_MONETARY', 'en_US.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2502'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/jetson/jetcobot_colcon_ws/install:/home/jetson/install:/home/jetson/jetcobot_ws/install'), ('CODEX_PERMISSION_PROFILE', ':danger-full-access'), ('CODEX_TOOL_CALL_ID', 'exec-d04a8104-10ea-4e11-a669-c106cac0f302'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jetson'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (8GB ram)'), ('JETSON_SERIAL_NUMBER', '1422725018378'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('RUST_LOG', 'warn'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jetson/.local/bin:/home/jetson/.codex/tmp/arg0-linux/codex-arg0Vv9qBR:/home/jetson/.npm-global/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jetson/.vscode/extensions/openai.chatgpt-26.1111.21308-linux-arm64/bin/linux-aarch64'), ('SESSION_MANAGER', 'local/yahboom:@/tmp/.ICE-unix/2475,unix/yahboom:/tmp/.ICE-unix/2475'), ('CODEX_VERSION', '0.169.0-alpha.11.1'), ('CODEX_SESSION_ID', '01a1f218-bbfd-7cb2-b636-c091d93d33e9'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('ftp_proxy', 'http://192.168.2.58:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac3e55ac_1f1b_4027_bba1_88d250dcb446'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '98'), ('AMENT_PREFIX_PATH', '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '01a1f218-bbfd-7cb2-b636-c091d93d33e9'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit'), ('VSCODE_CLI', '1'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/jetson/.config/Code/CachedData/385651c938df8a906869babee516bffd0ddb9829'), ('FTP_PROXY', 'http://192.168.2.58:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_visual/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_msgs/local/lib/python3.10/dist-packages:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_grasp/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_ctrl/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_advance/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/lib/python3.10/site-packages/:'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_msgs'), ('VSCODE_PID', '518497'), ('JETSON_P_NUMBER', 'p3767-0003')]), 'shell': False}
+[0.080003] (jetcobot_moveit) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/CTestConfiguration.ini\n'}
+[0.080653] (jetcobot_moveit) StdoutLine: {'line': b'Parse Config file:/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/CTestConfiguration.ini\n'}
+[0.081105] (jetcobot_moveit) StdoutLine: {'line': b'   Site: yahboom\n'}
+[0.081803] (jetcobot_moveit) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.081976] (jetcobot_moveit) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.082109] (jetcobot_moveit) StdoutLine: {'line': b'Create new tag: 20261119-0750 - Experimental\n'}
+[0.082232] (jetcobot_moveit) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/CTestConfiguration.ini\n'}
+[0.082353] (jetcobot_moveit) StdoutLine: {'line': b'Parse Config file:/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/CTestConfiguration.ini\n'}
+[0.082473] (jetcobot_moveit) StdoutLine: {'line': b'Test project /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit\n'}
+[0.082589] (jetcobot_moveit) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.083146] (jetcobot_moveit) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.083477] (jetcobot_moveit) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.083669] (jetcobot_moveit) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.083781] (jetcobot_moveit) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.083888] (jetcobot_moveit) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.083994] (jetcobot_moveit) StdoutLine: {'line': b'test 4\n'}
+[0.084101] (jetcobot_moveit) StdoutLine: {'line': b'    Start 4: pregrasp_handeye_test\n'}
+[0.084206] (jetcobot_moveit) StdoutLine: {'line': b'\n'}
+[0.084311] (jetcobot_moveit) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/pregrasp_handeye_test.xunit.xml" "--package-name" "jetcobot_moveit" "--output-file" "/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/pregrasp_handeye_test.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/test/test_pregrasp_handeye.py" "-o" "cache_dir=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/pregrasp_handeye_test/.cache" "--junit-xml=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/pregrasp_handeye_test.xunit.xml" "--junit-prefix=jetcobot_moveit"\n'}
+[0.084472] (jetcobot_moveit) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.099348] (-) TimerEvent: {}
+[0.199689] (-) TimerEvent: {}
+[0.238585] (jetcobot_moveit) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit':\n"}
+[0.239006] (jetcobot_moveit) StdoutLine: {'line': b'4:  - /usr/bin/python3 -u -m pytest /home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/test/test_pregrasp_handeye.py -o cache_dir=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/pregrasp_handeye_test/.cache --junit-xml=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/pregrasp_handeye_test.xunit.xml --junit-prefix=jetcobot_moveit\n'}
+[0.301753] (-) TimerEvent: {}
+[0.402130] (-) TimerEvent: {}
+[0.502499] (-) TimerEvent: {}
+[0.602855] (-) TimerEvent: {}
+[0.703219] (-) TimerEvent: {}
+[0.803606] (-) TimerEvent: {}
+[0.904007] (-) TimerEvent: {}
+[1.004454] (-) TimerEvent: {}
+[1.104892] (-) TimerEvent: {}
+[1.155492] (jetcobot_moveit) StdoutLine: {'line': b'4: ============================= test session starts ==============================\n'}
+[1.155886] (jetcobot_moveit) StdoutLine: {'line': b'4: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[1.165775] (jetcobot_moveit) StdoutLine: {'line': b'4: cachedir: build/jetcobot_moveit/ament_cmake_pytest/pregrasp_handeye_test/.cache\n'}
+[1.166240] (jetcobot_moveit) StdoutLine: {'line': b'4: rootdir: /home/jetson/jetcobot_colcon_ws\n'}
+[1.166381] (jetcobot_moveit) StdoutLine: {'line': b'4: plugins: ament-lint-0.12.11, ament-flake8-0.12.11, ament-pep257-0.12.11, ament-copyright-0.12.11, launch-testing-1.0.7, launch-testing-ros-0.19.8, ament-xmllint-0.12.11, anyio-4.8.0, colcon-core-0.18.4, cov-3.0.0\n'}
+[1.205038] (-) TimerEvent: {}
+[1.305416] (-) TimerEvent: {}
+[1.405888] (-) TimerEvent: {}
+[1.506383] (-) TimerEvent: {}
+[1.516340] (jetcobot_moveit) StdoutLine: {'line': b'4: libEGL warning: DRI2: failed to authenticate\n'}
+[1.606534] (-) TimerEvent: {}
+[1.706953] (-) TimerEvent: {}
+[1.807493] (-) TimerEvent: {}
+[1.907979] (-) TimerEvent: {}
+[2.008718] (-) TimerEvent: {}
+[2.109185] (-) TimerEvent: {}
+[2.209650] (-) TimerEvent: {}
+[2.311698] (-) TimerEvent: {}
+[2.412548] (-) TimerEvent: {}
+[2.513363] (-) TimerEvent: {}
+[2.613731] (-) TimerEvent: {}
+[2.714132] (-) TimerEvent: {}
+[2.769713] (jetcobot_moveit) StdoutLine: {'line': b'4: collected 12 items\n'}
+[2.770626] (jetcobot_moveit) StdoutLine: {'line': b'4: \n'}
+[2.814302] (-) TimerEvent: {}
+[2.915206] (-) TimerEvent: {}
+[3.015645] (-) TimerEvent: {}
+[3.111772] (jetcobot_moveit) StdoutLine: {'line': b'4: ../../src/jetcobot_moveit/test/test_pregrasp_handeye.py ............     [100%]\n'}
+[3.112888] (jetcobot_moveit) StdoutLine: {'line': b'4: \n'}
+[3.113176] (jetcobot_moveit) StdoutLine: {'line': b'4: - generated xml file: /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/pregrasp_handeye_test.xunit.xml -\n'}
+[3.113434] (jetcobot_moveit) StdoutLine: {'line': b'4: ============================== 12 passed in 1.96s ==============================\n'}
+[3.115784] (-) TimerEvent: {}
+[3.216151] (-) TimerEvent: {}
+[3.316664] (-) TimerEvent: {}
+[3.417161] (-) TimerEvent: {}
+[3.517652] (-) TimerEvent: {}
+[3.618149] (-) TimerEvent: {}
+[3.705385] (jetcobot_moveit) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[3.705952] (jetcobot_moveit) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/pregrasp_handeye_test.xunit.xml'\n"}
+[3.718315] (-) TimerEvent: {}
+[3.744090] (jetcobot_moveit) StdoutLine: {'line': b'1/1 Test #4: pregrasp_handeye_test ............   Passed    3.66 sec\n'}
+[3.745663] (jetcobot_moveit) StdoutLine: {'line': b'\n'}
+[3.745919] (jetcobot_moveit) StdoutLine: {'line': b'The following tests passed:\n'}
+[3.746171] (jetcobot_moveit) StdoutLine: {'line': b'\tpregrasp_handeye_test\n'}
+[3.746434] (jetcobot_moveit) StdoutLine: {'line': b'\n'}
+[3.746684] (jetcobot_moveit) StdoutLine: {'line': b'100% tests passed, 0 tests failed out of 1\n'}
+[3.746928] (jetcobot_moveit) StdoutLine: {'line': b'\n'}
+[3.747160] (jetcobot_moveit) StdoutLine: {'line': b'Label Time Summary:\n'}
+[3.747440] (jetcobot_moveit) StdoutLine: {'line': b'pytest    =   3.66 sec*proc (1 test)\n'}
+[3.747718] (jetcobot_moveit) StdoutLine: {'line': b'\n'}
+[3.747957] (jetcobot_moveit) StdoutLine: {'line': b'Total Test time (real) =   3.66 sec\n'}
+[3.750737] (jetcobot_moveit) CommandEnded: {'returncode': 0}
+[3.752356] (jetcobot_moveit) JobEnded: {'identifier': 'jetcobot_moveit', 'rc': 0}
+[3.753870] (-) EventReactorShutdown: {}

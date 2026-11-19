@@ -1,0 +1,2 @@
+Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process -R charuco_handeye_test --output-on-failure
+Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit' returned '0': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process -R charuco_handeye_test --output-on-failure

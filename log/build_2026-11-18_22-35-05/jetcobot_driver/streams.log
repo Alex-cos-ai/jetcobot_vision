@@ -1,0 +1,32 @@
+[2.729s] Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver': PYTHONPATH=/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build --no-deps symlink_data
+[3.832s] running develop
+[4.605s] running egg_info
+[4.605s] creating jetcobot_driver.egg-info
+[4.621s] writing jetcobot_driver.egg-info/PKG-INFO
+[4.621s] writing dependency_links to jetcobot_driver.egg-info/dependency_links.txt
+[4.621s] writing entry points to jetcobot_driver.egg-info/entry_points.txt
+[4.621s] writing requirements to jetcobot_driver.egg-info/requires.txt
+[4.621s] writing top-level names to jetcobot_driver.egg-info/top_level.txt
+[4.622s] writing manifest file 'jetcobot_driver.egg-info/SOURCES.txt'
+[4.622s] reading manifest file 'jetcobot_driver.egg-info/SOURCES.txt'
+[4.622s] writing manifest file 'jetcobot_driver.egg-info/SOURCES.txt'
+[4.726s] running build_ext
+[4.728s] Creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot-driver.egg-link (link to .)
+[4.731s] Installing sync_plan script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+[4.732s] Installing sync_plan_nx script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+[4.732s] Installing visual_servo_6dof script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+[4.733s] 
+[4.733s] Installed /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver
+[4.733s] running symlink_data
+[4.733s] creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/ament_index
+[4.733s] creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/ament_index/resource_index
+[4.733s] creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/ament_index/resource_index/packages
+[4.734s] symbolically linking /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/resource/jetcobot_driver -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/ament_index/resource_index/packages
+[4.734s] symbolically linking /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/package.xml -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver
+[4.739s] creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver/launch
+[4.739s] symbolically linking /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/launch/visual_servo.launch.py -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver/launch
+[4.740s] creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver/visual_servo_6dof
+[4.740s] creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver/visual_servo_6dof/config
+[4.740s] symbolically linking /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/visual_servo_6dof/config/visual_servo.yaml -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver/visual_servo_6dof/config
+[4.740s] symbolically linking /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/visual_servo_6dof/README.md -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver/visual_servo_6dof
+[4.936s] Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver' returned '0': PYTHONPATH=/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build --no-deps symlink_data

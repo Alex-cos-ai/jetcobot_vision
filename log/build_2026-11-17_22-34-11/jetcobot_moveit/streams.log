@@ -1,0 +1,96 @@
+[0.033s] Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit': CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake /home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit -DCMAKE_INSTALL_PREFIX=/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit
+[0.092s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.444s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.459s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.526s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.532s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.543s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.561s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.584s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.645s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.647s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.908s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.050s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.072s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[1.307s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.373s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.405s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.463s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.481s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.518s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.588s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[1.635s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.840s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.891s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.926s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.977s] -- Found moveit_visual_tools: 4.1.2 (/opt/ros/humble/share/moveit_visual_tools/cmake)
+[2.110s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[2.119s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.122s] -- Found OGRE
+[2.122s] --   static     : OFF
+[2.122s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.122s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.123s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.123s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.123s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[2.123s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.123s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[2.123s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.123s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.123s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.123s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.591s] -- Configuring done
+[2.735s] -- Generating done
+[2.765s] -- Build files have been written to: /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit
+[2.810s] Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit' returned '0': CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake /home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit -DCMAKE_INSTALL_PREFIX=/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit
+[2.815s] Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit': CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake --build /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit -- -j6 -l6
+[2.975s] Consolidate compiler generated dependencies of target set_target_position
+[2.987s] Consolidate compiler generated dependencies of target set_target_joints
+[3.032s] [ 50%] Built target set_target_joints
+[3.035s] [100%] Built target set_target_position
+[3.065s] Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit' returned '0': CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake --build /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit -- -j6 -l6
+[3.092s] Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit': CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake --install /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit
+[3.112s] -- Install configuration: ""
+[3.113s] -- Execute custom install script
+[3.115s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/set_target_joints
+[3.115s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/set_target_position
+[3.116s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/demo.launch.py
+[3.116s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/move_group.launch.py
+[3.116s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/moveit_rviz.launch.py
+[3.117s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/rsp.launch.py
+[3.117s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/setup_assistant.launch.py
+[3.117s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/spawn_controllers.launch.py
+[3.118s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/static_virtual_joint_tfs.launch.py
+[3.118s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/warehouse_db.launch.py
+[3.118s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/initial_positions.yaml
+[3.118s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/jetcobot.ros2_control.xacro
+[3.118s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/jetcobot.srdf
+[3.119s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/jetcobot.urdf.xacro
+[3.119s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/joint_limits.yaml
+[3.119s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/kinematics.yaml
+[3.119s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/moveit.rviz
+[3.119s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/moveit_controllers.yaml
+[3.119s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/ompl_planning.yaml
+[3.119s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/pilz_cartesian_limits.yaml
+[3.119s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/ros2_controllers.yaml
+[3.120s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/detect_marker_debug.py
+[3.120s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/get_target_joint_angles.py
+[3.123s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/.setup_assistant
+[3.123s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/ament_index/resource_index/package_run_dependencies/jetcobot_moveit
+[3.123s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/ament_index/resource_index/parent_prefix_path/jetcobot_moveit
+[3.123s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/environment/ament_prefix_path.sh
+[3.123s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/environment/ament_prefix_path.dsv
+[3.123s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/environment/path.sh
+[3.123s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/environment/path.dsv
+[3.124s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/local_setup.bash
+[3.124s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/local_setup.sh
+[3.124s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/local_setup.zsh
+[3.124s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/local_setup.dsv
+[3.124s] -- Symlinking: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/package.dsv
+[3.146s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/ament_index/resource_index/packages/jetcobot_moveit
+[3.147s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/cmake/jetcobot_moveitConfig.cmake
+[3.147s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/cmake/jetcobot_moveitConfig-version.cmake
+[3.147s] -- Up-to-date symlink: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/package.xml
+[3.147s] -- Installing: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/handeye_collect
+[3.147s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/local_joint_camera_control
+[3.152s] Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit' returned '0': CMAKE_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake --install /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit

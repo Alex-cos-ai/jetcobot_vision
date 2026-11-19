@@ -1,0 +1,8 @@
+# Simulation only: a bent configuration, validated for self collision.
+initial_positions:
+  1_Joint: 0.0
+  2_Joint: 0.45
+  3_Joint: -1.25
+  4_Joint: -0.3
+  5_Joint: 0.1
+  6_Joint: 0.0

@@ -319,6 +319,18 @@ ament_cmake_symlink_install_directory("/home/jetson/jetcobot_colcon_ws/src/jetco
 # install(DIRECTORY "config" "DESTINATION" "share/jetcobot_moveit")
 ament_cmake_symlink_install_directory("/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit" DIRECTORY "config" "DESTINATION" "share/jetcobot_moveit")
 
+# install(PROGRAMS "script/detect_marker_debug.py" "script/get_target_joint_angles.py" "DESTINATION" "lib/jetcobot_moveit")
+ament_cmake_symlink_install_programs("/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit" PROGRAMS "script/detect_marker_debug.py" "script/get_target_joint_angles.py" "DESTINATION" "lib/jetcobot_moveit")
+
+# install(PROGRAMS "script/handeye_solve.py" "script/handeye_collect.py" "DESTINATION" "lib/jetcobot_moveit")
+ament_cmake_symlink_install_programs("/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit" PROGRAMS "script/handeye_solve.py" "script/handeye_collect.py" "DESTINATION" "lib/jetcobot_moveit")
+
+# install(FILES "script/charuco_board.py" "DESTINATION" "lib/jetcobot_moveit")
+ament_cmake_symlink_install_files("/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit" FILES "script/charuco_board.py" "DESTINATION" "lib/jetcobot_moveit")
+
+# install(DIRECTORY "docs" "DESTINATION" "share/jetcobot_moveit")
+ament_cmake_symlink_install_directory("/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit" DIRECTORY "docs" "DESTINATION" "share/jetcobot_moveit")
+
 # install(FILES ".setup_assistant" "DESTINATION" "share/jetcobot_moveit")
 ament_cmake_symlink_install_files("/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit" FILES ".setup_assistant" "DESTINATION" "share/jetcobot_moveit")
 

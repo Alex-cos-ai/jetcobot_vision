@@ -1,0 +1,37 @@
+Start testing: Nov 19 14:46 CST
+----------------------------------------------------------
+4/4 Testing: pregrasp_handeye_test
+4/4 Test: pregrasp_handeye_test
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/pregrasp_handeye_test.xunit.xml" "--package-name" "jetcobot_moveit" "--output-file" "/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/pregrasp_handeye_test.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/test/test_pregrasp_handeye.py" "-o" "cache_dir=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/pregrasp_handeye_test/.cache" "--junit-xml=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/pregrasp_handeye_test.xunit.xml" "--junit-prefix=jetcobot_moveit"
+Directory: /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit
+"pregrasp_handeye_test" start time: Nov 19 14:46 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit':
+ - /usr/bin/python3 -u -m pytest /home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/test/test_pregrasp_handeye.py -o cache_dir=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/pregrasp_handeye_test/.cache --junit-xml=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/pregrasp_handeye_test.xunit.xml --junit-prefix=jetcobot_moveit
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: build/jetcobot_moveit/ament_cmake_pytest/pregrasp_handeye_test/.cache
+rootdir: /home/jetson/jetcobot_colcon_ws
+plugins: ament-lint-0.12.11, ament-flake8-0.12.11, ament-pep257-0.12.11, ament-copyright-0.12.11, launch-testing-1.0.7, launch-testing-ros-0.19.8, ament-xmllint-0.12.11, anyio-4.8.0, colcon-core-0.18.4, cov-3.0.0
+libEGL warning: DRI2: failed to authenticate
+collected 6 items
+
+../../src/jetcobot_moveit/test/test_pregrasp_handeye.py ......           [100%]
+
+- generated xml file: /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/pregrasp_handeye_test.xunit.xml -
+============================== 6 passed in 1.81s ===============================
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/pregrasp_handeye_test.xunit.xml'
+<end of output>
+Test time =   3.43 sec
+----------------------------------------------------------
+Test Passed.
+"pregrasp_handeye_test" end time: Nov 19 14:46 CST
+"pregrasp_handeye_test" time elapsed: 00:00:03
+----------------------------------------------------------
+
+End testing: Nov 19 14:46 CST
+
+pytest =   3.43 sec*proc
+

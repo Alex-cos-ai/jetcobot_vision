@@ -1,0 +1,30 @@
+running develop
+running egg_info
+creating jetcobot_driver.egg-info
+writing jetcobot_driver.egg-info/PKG-INFO
+writing dependency_links to jetcobot_driver.egg-info/dependency_links.txt
+writing entry points to jetcobot_driver.egg-info/entry_points.txt
+writing requirements to jetcobot_driver.egg-info/requires.txt
+writing top-level names to jetcobot_driver.egg-info/top_level.txt
+writing manifest file 'jetcobot_driver.egg-info/SOURCES.txt'
+reading manifest file 'jetcobot_driver.egg-info/SOURCES.txt'
+writing manifest file 'jetcobot_driver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot-driver.egg-link (link to .)
+Installing sync_plan script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+Installing sync_plan_nx script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+Installing visual_servo_6dof script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+
+Installed /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver
+running symlink_data
+creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/ament_index
+creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/ament_index/resource_index
+creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/ament_index/resource_index/packages
+symbolically linking /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/resource/jetcobot_driver -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/ament_index/resource_index/packages
+symbolically linking /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/package.xml -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver
+creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver/launch
+symbolically linking /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/launch/visual_servo.launch.py -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver/launch
+creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver/visual_servo_6dof
+creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver/visual_servo_6dof/config
+symbolically linking /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/visual_servo_6dof/config/visual_servo.yaml -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver/visual_servo_6dof/config
+symbolically linking /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/visual_servo_6dof/README.md -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver/visual_servo_6dof

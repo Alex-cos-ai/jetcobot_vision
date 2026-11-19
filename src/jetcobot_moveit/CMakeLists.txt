@@ -44,6 +44,52 @@ if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/launch")
 endif()
 
 install(DIRECTORY config DESTINATION share/${PROJECT_NAME})
+install(
+  PROGRAMS
+    script/detect_marker_debug.py
+    script/get_target_joint_angles.py
+  DESTINATION lib/${PROJECT_NAME})
+install(
+  PROGRAMS script/handeye_collect.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME handeye_collect)
+install(
+  PROGRAMS script/handeye_solve.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME handeye_solve)
+install(
+  PROGRAMS script/handeye_solve.py script/handeye_collect.py
+  DESTINATION lib/${PROJECT_NAME})
+install(
+  PROGRAMS script/charuco_handeye_collect.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME charuco_handeye_collect)
+install(
+  PROGRAMS script/charuco_handeye_solve.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME charuco_handeye_solve)
+install(
+  FILES script/charuco_board.py
+  DESTINATION lib/${PROJECT_NAME})
+install(
+  DIRECTORY docs
+  DESTINATION share/${PROJECT_NAME})
+install(
+  PROGRAMS script/pregrasp_move.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME pregrasp_move)
+install(
+  PROGRAMS script/local_joint_camera_control.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME local_joint_camera_control)
 install(FILES .setup_assistant DESTINATION share/${PROJECT_NAME})
+
+if(BUILD_TESTING)
+  find_package(ament_cmake_pytest REQUIRED)
+  ament_add_pytest_test(handeye_solve_test test/test_handeye_solve.py)
+  ament_add_pytest_test(charuco_handeye_test test/test_charuco_handeye.py)
+  ament_add_pytest_test(charuco_collector_test test/test_charuco_collector.py)
+  ament_add_pytest_test(pregrasp_handeye_test test/test_pregrasp_handeye.py)
+endif()
 
 ament_package()

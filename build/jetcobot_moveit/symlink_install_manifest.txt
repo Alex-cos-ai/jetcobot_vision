@@ -8,6 +8,7 @@
 /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/spawn_controllers.launch.py
 /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/static_virtual_joint_tfs.launch.py
 /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/launch/warehouse_db.launch.py
+/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/charuco_handeye.yaml
 /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/initial_positions.yaml
 /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/jetcobot.ros2_control.xacro
 /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/jetcobot.srdf
@@ -19,6 +20,13 @@
 /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/ompl_planning.yaml
 /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/pilz_cartesian_limits.yaml
 /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/config/ros2_controllers.yaml
+/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/detect_marker_debug.py
+/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/get_target_joint_angles.py
+/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/handeye_solve.py
+/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/handeye_collect.py
+/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/lib/jetcobot_moveit/charuco_board.py
+/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/docs/charuco_handeye.md
+/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/docs/pregrasp_new_handeye.md
 /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/jetcobot_moveit/.setup_assistant
 /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/ament_index/resource_index/package_run_dependencies/jetcobot_moveit
 /home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit/share/ament_index/resource_index/parent_prefix_path/jetcobot_moveit

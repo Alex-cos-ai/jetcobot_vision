@@ -1,0 +1,43 @@
+[0.053s] Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake --build /home/jetson/jetcobot_colcon_ws/build/jetcobot_description -- -j6 -l6
+[0.774s] Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake --build /home/jetson/jetcobot_colcon_ws/build/jetcobot_description -- -j6 -l6
+[0.800s] Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake --install /home/jetson/jetcobot_colcon_ws/build/jetcobot_description
+[0.817s] -- Install configuration: ""
+[0.818s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/launch
+[0.818s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/launch/display.launch.py
+[0.819s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes
+[0.819s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes/6_Link.STL
+[0.820s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes/gripper_left2.dae
+[0.820s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes/gripper_left1.dae
+[0.820s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes/2_Link.STL
+[0.820s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes/3_Link.STL
+[0.820s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes/gripper_right2.dae
+[0.821s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes/jiazhua_Link.STL
+[0.821s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes/gripper_left3.dae
+[0.822s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes/base_link.STL
+[0.822s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes/camera_Link.STL
+[0.822s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes/4_Link.STL
+[0.822s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes/gripper_right1.dae
+[0.822s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes/gripper_base.dae
+[0.822s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes/gripper_right3.dae
+[0.823s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes/5_Link.STL
+[0.823s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/meshes/1_Link.STL
+[0.823s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/urdf
+[0.823s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/urdf/jetcobot.urdf
+[0.824s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/urdf/.ipynb_checkpoints
+[0.824s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/urdf/.ipynb_checkpoints/DOFBOT_Pro-V24-checkpoint.urdf
+[0.824s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/ament_index/resource_index/package_run_dependencies/jetcobot_description
+[0.824s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/ament_index/resource_index/parent_prefix_path/jetcobot_description
+[0.825s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/environment/ament_prefix_path.sh
+[0.826s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/environment/ament_prefix_path.dsv
+[0.827s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/environment/path.sh
+[0.828s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/environment/path.dsv
+[0.828s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/local_setup.bash
+[0.828s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/local_setup.sh
+[0.829s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/local_setup.zsh
+[0.829s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/local_setup.dsv
+[0.830s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/package.dsv
+[0.831s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/ament_index/resource_index/packages/jetcobot_description
+[0.832s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/cmake/jetcobot_descriptionConfig.cmake
+[0.832s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/cmake/jetcobot_descriptionConfig-version.cmake
+[0.832s] -- Up-to-date: /home/jetson/jetcobot_colcon_ws/install/jetcobot_description/share/jetcobot_description/package.xml
+[0.833s] Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble /usr/bin/cmake --install /home/jetson/jetcobot_colcon_ws/build/jetcobot_description

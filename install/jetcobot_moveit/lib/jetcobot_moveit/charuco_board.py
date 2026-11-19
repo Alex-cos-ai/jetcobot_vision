@@ -1,0 +1,1 @@
+/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/script/charuco_board.py

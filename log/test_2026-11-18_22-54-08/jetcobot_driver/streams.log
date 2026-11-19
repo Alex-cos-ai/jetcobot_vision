@@ -1,0 +1,164 @@
+[0.749s] Invoking command in '/home/jetson/jetcobot_colcon_ws/src/jetcobot_driver': AMENT_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/pytest.xml --junit-prefix=jetcobot_driver -o cache_dir=/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_visual/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_msgs/local/lib/python3.10/dist-packages:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_grasp/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_ctrl/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_advance/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/lib/python3.10/site-packages/ /usr/bin/python3 -m pytest
+[1.790s] ============================= test session starts ==============================
+[1.791s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[1.792s] cachedir: /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/.pytest_cache
+[1.792s] rootdir: /home/jetson/jetcobot_colcon_ws/src/jetcobot_driver
+[1.795s] plugins: ament-lint-0.12.11, ament-flake8-0.12.11, ament-pep257-0.12.11, ament-copyright-0.12.11, launch-testing-1.0.7, launch-testing-ros-0.19.8, ament-xmllint-0.12.11, anyio-4.8.0, colcon-core-0.18.4, cov-3.0.0
+[1.796s] collected 3 items
+[1.797s] 
+[1.799s] test/test_copyright.py s                                                 [ 33%]
+[2.255s] test/test_flake8.py F                                                    [ 66%]
+[2.363s] =============================== warnings summary ===============================
+[2.364s] test/test_flake8.py::test_flake8
+[2.364s] test/test_flake8.py::test_flake8
+[2.364s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[2.365s] 
+[2.365s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[2.372s] test/test_pep257.py .                                                    [100%]
+[2.372s] 
+[2.373s] =================================== FAILURES ===================================
+[2.373s] _________________________________ test_flake8 __________________________________
+[2.373s] test/test_flake8.py:23: in test_flake8
+[2.374s]     assert rc == 0, \
+[2.374s] E   AssertionError: Found 21 code style errors / warnings:
+[2.374s] E     ./jetcobot_driver/sync_plan.py:7:1: E302 expected 2 blank lines, found 1
+[2.374s] E     ./jetcobot_driver/sync_plan.py:10:1: W293 blank line contains whitespace
+[2.374s] E     ./jetcobot_driver/sync_plan.py:18:64: E231 missing whitespace after ','
+[2.375s] E     ./jetcobot_driver/sync_plan.py:18:79: E231 missing whitespace after ','
+[2.375s] E     ./jetcobot_driver/sync_plan.py:18:93: E231 missing whitespace after ','
+[2.375s] E     ./jetcobot_driver/sync_plan.py:35:1: W293 blank line contains whitespace
+[2.375s] E     ./jetcobot_driver/sync_plan.py:39:1: E302 expected 2 blank lines, found 1
+[2.376s] E     ./jetcobot_driver/sync_plan.py:42:1: W293 blank line contains whitespace
+[2.376s] E     ./jetcobot_driver/sync_plan.py:51:1: E305 expected 2 blank lines after class or function definition, found 1
+[2.376s] E     ./jetcobot_driver/sync_plan_nx.py:4:1: F401 'os' imported but unused
+[2.376s] E     ./jetcobot_driver/sync_plan_nx.py:8:1: F401 'packaging.version' imported but unused
+[2.377s] E     ./jetcobot_driver/sync_plan_nx.py:13:1: E302 expected 2 blank lines, found 1
+[2.377s] E     ./jetcobot_driver/sync_plan_nx.py:16:64: E231 missing whitespace after ','
+[2.377s] E     ./jetcobot_driver/sync_plan_nx.py:16:79: E231 missing whitespace after ','
+[2.377s] E     ./jetcobot_driver/sync_plan_nx.py:16:100: E501 line too long (105 > 99 characters)
+[2.378s] E     ./jetcobot_driver/sync_plan_nx.py:16:102: E231 missing whitespace after ','
+[2.378s] E     ./jetcobot_driver/sync_plan_nx.py:17:1: W293 blank line contains whitespace
+[2.378s] E     ./jetcobot_driver/sync_plan_nx.py:49:1: W293 blank line contains whitespace
+[2.379s] E     ./jetcobot_driver/sync_plan_nx.py:57:1: W293 blank line contains whitespace
+[2.379s] E     ./jetcobot_driver/sync_plan_nx.py:59:1: W293 blank line contains whitespace
+[2.379s] E     ./jetcobot_driver/sync_plan_nx.py:65:11: W292 no newline at end of file
+[2.380s] E   assert 1 == 0
+[2.380s] ----------------------------- Captured stdout call -----------------------------
+[2.380s] 
+[2.380s] ./jetcobot_driver/sync_plan.py:7:1: E302 expected 2 blank lines, found 1
+[2.381s] class MycobotReceiver(Node):
+[2.381s] ^
+[2.381s] 
+[2.382s] ./jetcobot_driver/sync_plan.py:10:1: W293 blank line contains whitespace
+[2.382s]         
+[2.382s] ^
+[2.383s] 
+[2.383s] ./jetcobot_driver/sync_plan.py:18:64: E231 missing whitespace after ','
+[2.383s]         self.subscription = self.create_subscription(JointState,'joint_states',self.callback,10)
+[2.383s]                                                                ^
+[2.384s] 
+[2.384s] ./jetcobot_driver/sync_plan.py:18:79: E231 missing whitespace after ','
+[2.384s]         self.subscription = self.create_subscription(JointState,'joint_states',self.callback,10)
+[2.385s]                                                                               ^
+[2.385s] 
+[2.385s] ./jetcobot_driver/sync_plan.py:18:93: E231 missing whitespace after ','
+[2.386s]         self.subscription = self.create_subscription(JointState,'joint_states',self.callback,10)
+[2.386s]                                                                                             ^
+[2.386s] 
+[2.387s] ./jetcobot_driver/sync_plan.py:35:1: W293 blank line contains whitespace
+[2.387s]         
+[2.387s] ^
+[2.387s] 
+[2.388s] ./jetcobot_driver/sync_plan.py:39:1: E302 expected 2 blank lines, found 1
+[2.389s] def main(args=None):
+[2.389s] ^
+[2.389s] 
+[2.390s] ./jetcobot_driver/sync_plan.py:42:1: W293 blank line contains whitespace
+[2.390s]     
+[2.390s] ^
+[2.390s] 
+[2.391s] ./jetcobot_driver/sync_plan.py:51:1: E305 expected 2 blank lines after class or function definition, found 1
+[2.391s] if __name__ == "__main__":
+[2.391s] ^
+[2.391s] 
+[2.391s] ./jetcobot_driver/sync_plan_nx.py:4:1: F401 'os' imported but unused
+[2.392s] import os
+[2.392s] ^
+[2.392s] 
+[2.392s] ./jetcobot_driver/sync_plan_nx.py:8:1: F401 'packaging.version' imported but unused
+[2.392s] from packaging import version
+[2.392s] ^
+[2.392s] 
+[2.393s] ./jetcobot_driver/sync_plan_nx.py:13:1: E302 expected 2 blank lines, found 1
+[2.393s] class Slider_Subscriber(Node):
+[2.393s] ^
+[2.393s] 
+[2.394s] ./jetcobot_driver/sync_plan_nx.py:16:64: E231 missing whitespace after ','
+[2.394s]         self.subscription = self.create_subscription(JointState,"joint_states",self.listener_callback,10)
+[2.394s]                                                                ^
+[2.395s] 
+[2.395s] ./jetcobot_driver/sync_plan_nx.py:16:79: E231 missing whitespace after ','
+[2.395s]         self.subscription = self.create_subscription(JointState,"joint_states",self.listener_callback,10)
+[2.395s]                                                                               ^
+[2.396s] 
+[2.396s] ./jetcobot_driver/sync_plan_nx.py:16:100: E501 line too long (105 > 99 characters)
+[2.396s]         self.subscription = self.create_subscription(JointState,"joint_states",self.listener_callback,10)
+[2.396s]                                                                                                    ^
+[2.397s] 
+[2.397s] ./jetcobot_driver/sync_plan_nx.py:16:102: E231 missing whitespace after ','
+[2.397s]         self.subscription = self.create_subscription(JointState,"joint_states",self.listener_callback,10)
+[2.397s]                                                                                                      ^
+[2.398s] 
+[2.398s] ./jetcobot_driver/sync_plan_nx.py:17:1: W293 blank line contains whitespace
+[2.398s]         
+[2.401s] ^
+[2.402s] 
+[2.402s] ./jetcobot_driver/sync_plan_nx.py:49:1: W293 blank line contains whitespace
+[2.402s]  
+[2.403s] ^
+[2.403s] 
+[2.403s] ./jetcobot_driver/sync_plan_nx.py:57:1: W293 blank line contains whitespace
+[2.404s]     
+[2.404s] ^
+[2.404s] 
+[2.404s] ./jetcobot_driver/sync_plan_nx.py:59:1: W293 blank line contains whitespace
+[2.405s]     
+[2.405s] ^
+[2.405s] 
+[2.406s] ./jetcobot_driver/sync_plan_nx.py:65:11: W292 no newline at end of file
+[2.406s]     main()          ^
+[2.406s] 
+[2.406s] 6     E231 missing whitespace after ','
+[2.406s] 3     E302 expected 2 blank lines, found 1
+[2.407s] 1     E305 expected 2 blank lines after class or function definition, found 1
+[2.407s] 1     E501 line too long (105 > 99 characters)
+[2.407s] 2     F401 'os' imported but unused
+[2.407s] 1     W292 no newline at end of file
+[2.408s] 7     W293 blank line contains whitespace
+[2.408s] 
+[2.408s] 10 files checked
+[2.408s] 21 errors
+[2.409s] 
+[2.409s] 'E'-type errors: 11
+[2.409s] 'F'-type errors: 2
+[2.409s] 'W'-type errors: 8
+[2.410s] 
+[2.410s] Checked files:
+[2.410s] 
+[2.410s] * ./setup.py
+[2.411s] * ./launch/visual_servo.launch.py
+[2.411s] * ./jetcobot_driver/sync_plan.py
+[2.411s] * ./jetcobot_driver/sync_plan_nx.py
+[2.411s] * ./jetcobot_driver/__init__.py
+[2.411s] * ./test/test_copyright.py
+[2.412s] * ./test/test_pep257.py
+[2.412s] * ./test/test_flake8.py
+[2.412s] * ./visual_servo_6dof/__init__.py
+[2.412s] * ./visual_servo_6dof/visual_servo_6dof.py
+[2.413s] ----------------------------- Captured stderr call -----------------------------
+[2.413s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[2.413s] - generated xml file: /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/pytest.xml -
+[2.414s] =========================== short test summary info ============================
+[2.414s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 21 code style...
+[2.414s] ============== 1 failed, 1 passed, 1 skipped, 2 warnings in 0.71s ==============
+[2.671s] Invoked command in '/home/jetson/jetcobot_colcon_ws/src/jetcobot_driver' returned '1': AMENT_PREFIX_PATH=/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble PYTEST_ADDOPTS=--tb=short --junit-xml=/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/pytest.xml --junit-prefix=jetcobot_driver -o cache_dir=/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_visual/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_msgs/local/lib/python3.10/dist-packages:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_grasp/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_ctrl/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_advance/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/lib/python3.10/site-packages/ /usr/bin/python3 -m pytest

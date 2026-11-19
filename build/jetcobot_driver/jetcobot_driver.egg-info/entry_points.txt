@@ -1,4 +1,8 @@
 [console_scripts]
+check_camera_sync = visual_servo_6dof.check_camera_sync:main
+servo_serial_bridge = visual_servo_6dof.servo_serial_bridge:main
 sync_plan = jetcobot_driver.sync_plan:main
 sync_plan_nx = jetcobot_driver.sync_plan_nx:main
+visual_servo_6dof = visual_servo_6dof.visual_servo_6dof:main
+wrist_camera = visual_servo_6dof.wrist_camera:main
 

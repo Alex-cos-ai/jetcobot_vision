@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="3" time="0.717" timestamp="2026-11-18T22:54:10.880607" hostname="yahboom"><testcase classname="jetcobot_driver.test.test_copyright" name="test_copyright" time="0.001"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/jetson/jetcobot_colcon_ws/src/jetcobot_driver/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="jetcobot_driver.test.test_flake8" name="test_flake8" time="0.386"><failure message="AssertionError: Found 21 code style errors / warnings:&#10;  ./jetcobot_driver/sync_plan.py:7:1: E302 expected 2 blank lines, found 1&#10;  ./jetcobot_driver/sync_plan.py:10:1: W293 blank line contains whitespace&#10;  ./jetcobot_driver/sync_plan.py:18:64: E231 missing whitespace after ','&#10;  ./jetcobot_driver/sync_plan.py:18:79: E231 missing whitespace after ','&#10;  ./jetcobot_driver/sync_plan.py:18:93: E231 missing whitespace after ','&#10;  ./jetcobot_driver/sync_plan.py:35:1: W293 blank line contains whitespace&#10;  ./jetcobot_driver/sync_plan.py:39:1: E302 expected 2 blank lines, found 1&#10;  ./jetcobot_driver/sync_plan.py:42:1: W293 blank line contains whitespace&#10;  ./jetcobot_driver/sync_plan.py:51:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./jetcobot_driver/sync_plan_nx.py:4:1: F401 'os' imported but unused&#10;  ./jetcobot_driver/sync_plan_nx.py:8:1: F401 'packaging.version' imported but unused&#10;  ./jetcobot_driver/sync_plan_nx.py:13:1: E302 expected 2 blank lines, found 1&#10;  ./jetcobot_driver/sync_plan_nx.py:16:64: E231 missing whitespace after ','&#10;  ./jetcobot_driver/sync_plan_nx.py:16:79: E231 missing whitespace after ','&#10;  ./jetcobot_driver/sync_plan_nx.py:16:100: E501 line too long (105 &gt; 99 characters)&#10;  ./jetcobot_driver/sync_plan_nx.py:16:102: E231 missing whitespace after ','&#10;  ./jetcobot_driver/sync_plan_nx.py:17:1: W293 blank line contains whitespace&#10;  ./jetcobot_driver/sync_plan_nx.py:49:1: W293 blank line contains whitespace&#10;  ./jetcobot_driver/sync_plan_nx.py:57:1: W293 blank line contains whitespace&#10;  ./jetcobot_driver/sync_plan_nx.py:59:1: W293 blank line contains whitespace&#10;  ./jetcobot_driver/sync_plan_nx.py:65:11: W292 no newline at end of file&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 21 code style errors / warnings:
+E     ./jetcobot_driver/sync_plan.py:7:1: E302 expected 2 blank lines, found 1
+E     ./jetcobot_driver/sync_plan.py:10:1: W293 blank line contains whitespace
+E     ./jetcobot_driver/sync_plan.py:18:64: E231 missing whitespace after ','
+E     ./jetcobot_driver/sync_plan.py:18:79: E231 missing whitespace after ','
+E     ./jetcobot_driver/sync_plan.py:18:93: E231 missing whitespace after ','
+E     ./jetcobot_driver/sync_plan.py:35:1: W293 blank line contains whitespace
+E     ./jetcobot_driver/sync_plan.py:39:1: E302 expected 2 blank lines, found 1
+E     ./jetcobot_driver/sync_plan.py:42:1: W293 blank line contains whitespace
+E     ./jetcobot_driver/sync_plan.py:51:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./jetcobot_driver/sync_plan_nx.py:4:1: F401 'os' imported but unused
+E     ./jetcobot_driver/sync_plan_nx.py:8:1: F401 'packaging.version' imported but unused
+E     ./jetcobot_driver/sync_plan_nx.py:13:1: E302 expected 2 blank lines, found 1
+E     ./jetcobot_driver/sync_plan_nx.py:16:64: E231 missing whitespace after ','
+E     ./jetcobot_driver/sync_plan_nx.py:16:79: E231 missing whitespace after ','
+E     ./jetcobot_driver/sync_plan_nx.py:16:100: E501 line too long (105 &gt; 99 characters)
+E     ./jetcobot_driver/sync_plan_nx.py:16:102: E231 missing whitespace after ','
+E     ./jetcobot_driver/sync_plan_nx.py:17:1: W293 blank line contains whitespace
+E     ./jetcobot_driver/sync_plan_nx.py:49:1: W293 blank line contains whitespace
+E     ./jetcobot_driver/sync_plan_nx.py:57:1: W293 blank line contains whitespace
+E     ./jetcobot_driver/sync_plan_nx.py:59:1: W293 blank line contains whitespace
+E     ./jetcobot_driver/sync_plan_nx.py:65:11: W292 no newline at end of file
+E   assert 1 == 0</failure></testcase><testcase classname="jetcobot_driver.test.test_pep257" name="test_pep257" time="0.100" /></testsuite></testsuites>

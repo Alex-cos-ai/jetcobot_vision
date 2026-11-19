@@ -1,0 +1,223 @@
+[0.000000] (-) TimerEvent: {}
+[0.000458] (jetcobot_driver) JobQueued: {'identifier': 'jetcobot_driver', 'dependencies': OrderedDict([('jetcobot_driver', '/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver')])}
+[0.003085] (jetcobot_driver) JobStarted: {'identifier': 'jetcobot_driver'}
+[0.098718] (-) TimerEvent: {}
+[0.199211] (-) TimerEvent: {}
+[0.299646] (-) TimerEvent: {}
+[0.400674] (-) TimerEvent: {}
+[0.501039] (-) TimerEvent: {}
+[0.601385] (-) TimerEvent: {}
+[0.701756] (-) TimerEvent: {}
+[0.802126] (-) TimerEvent: {}
+[0.836889] (jetcobot_driver) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/jetson/jetcobot_colcon_ws/src/jetcobot_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/jetson/jetcobot_colcon_ws', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'HTTPS_PROXY': 'http://127.0.0.1:7897/', 'CODEX_CI': '1', 'no_proxy': 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1', 'LANGUAGE': 'en_US:en', 'USER': 'jetson', 'LC_TIME': 'en_US.UTF-8', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"zh-cn","osLocale":"en-us","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/jetson/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","messagesFile":"/home/jetson/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/385651c938df8a906869babee516bffd0ddb9829/nls.messages.json","corruptMarkerFile":"/home/jetson/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"75539731208fa508a5b042c8fe051beb.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/jetson/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","_cacheRoot":"/home/jetson/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn","_resolvedLanguagePackCoreLocation":"/home/jetson/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/385651c938df8a906869babee516bffd0ddb9829","_corruptedFile":"/home/jetson/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"}', 'all_proxy': 'socks://127.0.0.1:7897/', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'DEBUG': 'release', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/jetson/jetcobot_ws/install/jetcobot_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda-12.6/lib64:', 'HOME': '/home/jetson', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/jetson', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-ed92d0d2-1.10-main.sock', 'JETSON_L4T': '36.4.4', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super', 'PAGER': 'cat', 'LC_MONETARY': 'en_US.UTF-8', 'LC_CTYPE': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '2497', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'IM_CONFIG_PHASE': '1', 'https_proxy': 'http://127.0.0.1:7897/', 'COLCON_PREFIX_PATH': '/home/jetson/jetcobot_colcon_ws/install:/home/jetson/install:/home/jetson/jetcobot_ws/install', 'CODEX_PERMISSION_PROFILE': ':danger-full-access', 'CODEX_TOOL_CALL_ID': 'exec-1665a6ec-1b3d-4a98-a3f8-774a1d71b6c0', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jetson', 'ALL_PROXY': 'socks://127.0.0.1:7897/', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (8GB ram)', 'JETSON_SERIAL_NUMBER': '1422725018378', 'http_proxy': 'http://127.0.0.1:7897/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS': '1', 'RUST_LOG': 'warn', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/jetson/.local/bin:/home/jetson/.codex/tmp/arg0-linux/codex-arg0WYmlwh:/home/jetson/.npm-global/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jetson/.vscode/extensions/openai.chatgpt-26.1111.21308-linux-arm64/bin/linux-aarch64', 'SESSION_MANAGER': 'local/yahboom:@/tmp/.ICE-unix/2434,unix/yahboom:/tmp/.ICE-unix/2434', 'CODEX_VERSION': '0.169.0-alpha.11.1', 'CODEX_SESSION_ID': '01a1ef08-6672-7cc0-b632-a45e92cf80cb', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'ftp_proxy': 'http://192.168.2.58:7890/', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a3ea0f92_ef1a_4b54_a757_b05f7ca720ac', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'GH_PAGER': 'cat', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.97', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '98', 'AMENT_PREFIX_PATH': '/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver:/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_visual:/home/jetson/jetcobot_ws/install/jetcobot_msgs:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe:/home/jetson/jetcobot_ws/install/jetcobot_grasp:/home/jetson/jetcobot_ws/install/jetcobot_ctrl:/home/jetson/jetcobot_ws/install/jetcobot_advance:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CODEX_THREAD_ID': '01a1ef08-6672-7cc0-b632-a45e92cf80cb', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver', 'VSCODE_CLI': '1', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/jetson/.config/Code/CachedData/385651c938df8a906869babee516bffd0ddb9829', 'FTP_PROXY': 'http://192.168.2.58:7890/', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_visual/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_msgs/local/lib/python3.10/dist-packages:/home/jetson/jetcobot_ws/install/jetcobot_mediapipe/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_grasp/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_ctrl/lib/python3.10/site-packages:/home/jetson/jetcobot_ws/install/jetcobot_advance/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/lib/python3.10/site-packages/', 'HTTP_PROXY': 'http://127.0.0.1:7897/', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'ELECTRON_NO_ATTACH_CONSOLE': '1', 'JETSON_JETPACK': '', 'CMAKE_PREFIX_PATH': '/home/jetson/jetcobot_colcon_ws/install/jetcobot_moveit:/home/jetson/jetcobot_colcon_ws/install/jetcobot_description:/home/jetson/install/jetcobot_moveit:/home/jetson/jetcobot_ws/install/jetcobot_msgs', 'VSCODE_PID': '307766', 'JETSON_P_NUMBER': 'p3767-0003', 'PYTHONDONTWRITEBYTECODE': '1', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/pytest.xml --junit-prefix=jetcobot_driver -o cache_dir=/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/.pytest_cache'}, 'shell': False}
+[0.902282] (-) TimerEvent: {}
+[1.002670] (-) TimerEvent: {}
+[1.103055] (-) TimerEvent: {}
+[1.203438] (-) TimerEvent: {}
+[1.303790] (-) TimerEvent: {}
+[1.404129] (-) TimerEvent: {}
+[1.504533] (-) TimerEvent: {}
+[1.604939] (-) TimerEvent: {}
+[1.705390] (-) TimerEvent: {}
+[1.805899] (-) TimerEvent: {}
+[1.906292] (-) TimerEvent: {}
+[2.006750] (-) TimerEvent: {}
+[2.085420] (jetcobot_driver) StdoutLine: {'line': b'============================= test session starts ==============================\n'}
+[2.085910] (jetcobot_driver) StdoutLine: {'line': b'platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[2.086076] (jetcobot_driver) StdoutLine: {'line': b'cachedir: /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/.pytest_cache\n'}
+[2.086216] (jetcobot_driver) StdoutLine: {'line': b'rootdir: /home/jetson/jetcobot_colcon_ws/src/jetcobot_driver\n'}
+[2.086346] (jetcobot_driver) StdoutLine: {'line': b'plugins: ament-lint-0.12.11, ament-flake8-0.12.11, ament-pep257-0.12.11, ament-copyright-0.12.11, launch-testing-1.0.7, launch-testing-ros-0.19.8, ament-xmllint-0.12.11, anyio-4.8.0, colcon-core-0.18.4, cov-3.0.0\n'}
+[2.086476] (jetcobot_driver) StdoutLine: {'line': b'collected 3 items\n'}
+[2.086594] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.098673] (jetcobot_driver) StdoutLine: {'line': b'test/test_copyright.py s                                                 [ 33%]\n'}
+[2.106906] (-) TimerEvent: {}
+[2.207315] (-) TimerEvent: {}
+[2.307697] (-) TimerEvent: {}
+[2.408110] (-) TimerEvent: {}
+[2.508708] (-) TimerEvent: {}
+[2.586162] (jetcobot_driver) StdoutLine: {'line': b'test/test_flake8.py F                                                    [ 66%]\n'}
+[2.609042] (-) TimerEvent: {}
+[2.709492] (-) TimerEvent: {}
+[2.759368] (jetcobot_driver) StderrLine: {'line': b'=============================== warnings summary ===============================\n'}
+[2.759850] (jetcobot_driver) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[2.760003] (jetcobot_driver) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[2.760135] (jetcobot_driver) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[2.760261] (jetcobot_driver) StderrLine: {'line': b'\n'}
+[2.760383] (jetcobot_driver) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[2.764644] (jetcobot_driver) StdoutLine: {'line': b'test/test_pep257.py F                                                    [100%]\n'}
+[2.765085] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.765237] (jetcobot_driver) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[2.765371] (jetcobot_driver) StdoutLine: {'line': b'_________________________________ test_flake8 __________________________________\n'}
+[2.765497] (jetcobot_driver) StdoutLine: {'line': b'test/test_flake8.py:23: in test_flake8\n'}
+[2.765615] (jetcobot_driver) StdoutLine: {'line': b'    assert rc == 0, \\\n'}
+[2.765734] (jetcobot_driver) StdoutLine: {'line': b'E   AssertionError: Found 21 code style errors / warnings:\n'}
+[2.765848] (jetcobot_driver) StdoutLine: {'line': b'E     ./jetcobot_driver/sync_plan.py:7:1: E302 expected 2 blank lines, found 1\n'}
+[2.765963] (jetcobot_driver) StdoutLine: {'line': b'E     ./jetcobot_driver/sync_plan.py:10:1: W293 blank line contains whitespace\n'}
+[2.766074] (jetcobot_driver) StdoutLine: {'line': b"E     ./jetcobot_driver/sync_plan.py:18:64: E231 missing whitespace after ','\n"}
+[2.766184] (jetcobot_driver) StdoutLine: {'line': b"E     ./jetcobot_driver/sync_plan.py:18:79: E231 missing whitespace after ','\n"}
+[2.766292] (jetcobot_driver) StdoutLine: {'line': b"E     ./jetcobot_driver/sync_plan.py:18:93: E231 missing whitespace after ','\n"}
+[2.766402] (jetcobot_driver) StdoutLine: {'line': b'E     ./jetcobot_driver/sync_plan.py:35:1: W293 blank line contains whitespace\n'}
+[2.766510] (jetcobot_driver) StdoutLine: {'line': b'E     ./jetcobot_driver/sync_plan.py:39:1: E302 expected 2 blank lines, found 1\n'}
+[2.766618] (jetcobot_driver) StdoutLine: {'line': b'E     ./jetcobot_driver/sync_plan.py:42:1: W293 blank line contains whitespace\n'}
+[2.766727] (jetcobot_driver) StdoutLine: {'line': b'E     ./jetcobot_driver/sync_plan.py:51:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[2.766841] (jetcobot_driver) StdoutLine: {'line': b"E     ./jetcobot_driver/sync_plan_nx.py:4:1: F401 'os' imported but unused\n"}
+[2.766951] (jetcobot_driver) StdoutLine: {'line': b"E     ./jetcobot_driver/sync_plan_nx.py:8:1: F401 'packaging.version' imported but unused\n"}
+[2.767088] (jetcobot_driver) StdoutLine: {'line': b'E     ./jetcobot_driver/sync_plan_nx.py:13:1: E302 expected 2 blank lines, found 1\n'}
+[2.767201] (jetcobot_driver) StdoutLine: {'line': b"E     ./jetcobot_driver/sync_plan_nx.py:16:64: E231 missing whitespace after ','\n"}
+[2.767310] (jetcobot_driver) StdoutLine: {'line': b"E     ./jetcobot_driver/sync_plan_nx.py:16:79: E231 missing whitespace after ','\n"}
+[2.767419] (jetcobot_driver) StdoutLine: {'line': b'E     ./jetcobot_driver/sync_plan_nx.py:16:100: E501 line too long (105 > 99 characters)\n'}
+[2.767527] (jetcobot_driver) StdoutLine: {'line': b"E     ./jetcobot_driver/sync_plan_nx.py:16:102: E231 missing whitespace after ','\n"}
+[2.772720] (jetcobot_driver) StdoutLine: {'line': b'E     ./jetcobot_driver/sync_plan_nx.py:17:1: W293 blank line contains whitespace\n'}
+[2.772979] (jetcobot_driver) StdoutLine: {'line': b'E     ./jetcobot_driver/sync_plan_nx.py:49:1: W293 blank line contains whitespace\n'}
+[2.773126] (jetcobot_driver) StdoutLine: {'line': b'E     ./jetcobot_driver/sync_plan_nx.py:57:1: W293 blank line contains whitespace\n'}
+[2.773262] (jetcobot_driver) StdoutLine: {'line': b'E     ./jetcobot_driver/sync_plan_nx.py:59:1: W293 blank line contains whitespace\n'}
+[2.773381] (jetcobot_driver) StdoutLine: {'line': b'E     ./jetcobot_driver/sync_plan_nx.py:65:11: W292 no newline at end of file\n'}
+[2.773499] (jetcobot_driver) StdoutLine: {'line': b'E   assert 1 == 0\n'}
+[2.773634] (jetcobot_driver) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[2.775995] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.776240] (jetcobot_driver) StdoutLine: {'line': b'./jetcobot_driver/sync_plan.py:7:1: E302 expected 2 blank lines, found 1\n'}
+[2.776375] (jetcobot_driver) StdoutLine: {'line': b'class MycobotReceiver(Node):\n'}
+[2.776536] (jetcobot_driver) StdoutLine: {'line': b'^\n'}
+[2.776712] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.777284] (jetcobot_driver) StdoutLine: {'line': b'./jetcobot_driver/sync_plan.py:10:1: W293 blank line contains whitespace\n'}
+[2.777441] (jetcobot_driver) StdoutLine: {'line': b'        \n'}
+[2.777563] (jetcobot_driver) StdoutLine: {'line': b'^\n'}
+[2.777678] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.777790] (jetcobot_driver) StdoutLine: {'line': b"./jetcobot_driver/sync_plan.py:18:64: E231 missing whitespace after ','\n"}
+[2.777904] (jetcobot_driver) StdoutLine: {'line': b"        self.subscription = self.create_subscription(JointState,'joint_states',self.callback,10)\n"}
+[2.778019] (jetcobot_driver) StdoutLine: {'line': b'                                                               ^\n'}
+[2.778132] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.778244] (jetcobot_driver) StdoutLine: {'line': b"./jetcobot_driver/sync_plan.py:18:79: E231 missing whitespace after ','\n"}
+[2.778353] (jetcobot_driver) StdoutLine: {'line': b"        self.subscription = self.create_subscription(JointState,'joint_states',self.callback,10)\n"}
+[2.778466] (jetcobot_driver) StdoutLine: {'line': b'                                                                              ^\n'}
+[2.778578] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.778686] (jetcobot_driver) StdoutLine: {'line': b"./jetcobot_driver/sync_plan.py:18:93: E231 missing whitespace after ','\n"}
+[2.778792] (jetcobot_driver) StdoutLine: {'line': b"        self.subscription = self.create_subscription(JointState,'joint_states',self.callback,10)\n"}
+[2.778902] (jetcobot_driver) StdoutLine: {'line': b'                                                                                            ^\n'}
+[2.779014] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.779124] (jetcobot_driver) StdoutLine: {'line': b'./jetcobot_driver/sync_plan.py:35:1: W293 blank line contains whitespace\n'}
+[2.779467] (jetcobot_driver) StdoutLine: {'line': b'        \n'}
+[2.779637] (jetcobot_driver) StdoutLine: {'line': b'^\n'}
+[2.779764] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.779879] (jetcobot_driver) StdoutLine: {'line': b'./jetcobot_driver/sync_plan.py:39:1: E302 expected 2 blank lines, found 1\n'}
+[2.779998] (jetcobot_driver) StdoutLine: {'line': b'def main(args=None):\n'}
+[2.780118] (jetcobot_driver) StdoutLine: {'line': b'^\n'}
+[2.780238] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.780361] (jetcobot_driver) StdoutLine: {'line': b'./jetcobot_driver/sync_plan.py:42:1: W293 blank line contains whitespace\n'}
+[2.780566] (jetcobot_driver) StdoutLine: {'line': b'    \n'}
+[2.781137] (jetcobot_driver) StdoutLine: {'line': b'^\n'}
+[2.781363] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.781534] (jetcobot_driver) StdoutLine: {'line': b'./jetcobot_driver/sync_plan.py:51:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[2.781701] (jetcobot_driver) StdoutLine: {'line': b'if __name__ == "__main__":\n'}
+[2.781820] (jetcobot_driver) StdoutLine: {'line': b'^\n'}
+[2.781932] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.782037] (jetcobot_driver) StdoutLine: {'line': b"./jetcobot_driver/sync_plan_nx.py:4:1: F401 'os' imported but unused\n"}
+[2.782146] (jetcobot_driver) StdoutLine: {'line': b'import os\n'}
+[2.782258] (jetcobot_driver) StdoutLine: {'line': b'^\n'}
+[2.782369] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.782480] (jetcobot_driver) StdoutLine: {'line': b"./jetcobot_driver/sync_plan_nx.py:8:1: F401 'packaging.version' imported but unused\n"}
+[2.782593] (jetcobot_driver) StdoutLine: {'line': b'from packaging import version\n'}
+[2.782704] (jetcobot_driver) StdoutLine: {'line': b'^\n'}
+[2.782815] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.782931] (jetcobot_driver) StdoutLine: {'line': b'./jetcobot_driver/sync_plan_nx.py:13:1: E302 expected 2 blank lines, found 1\n'}
+[2.783044] (jetcobot_driver) StdoutLine: {'line': b'class Slider_Subscriber(Node):\n'}
+[2.783154] (jetcobot_driver) StdoutLine: {'line': b'^\n'}
+[2.783262] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.783403] (jetcobot_driver) StdoutLine: {'line': b"./jetcobot_driver/sync_plan_nx.py:16:64: E231 missing whitespace after ','\n"}
+[2.783515] (jetcobot_driver) StdoutLine: {'line': b'        self.subscription = self.create_subscription(JointState,"joint_states",self.listener_callback,10)\n'}
+[2.783626] (jetcobot_driver) StdoutLine: {'line': b'                                                               ^\n'}
+[2.783736] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.783843] (jetcobot_driver) StdoutLine: {'line': b"./jetcobot_driver/sync_plan_nx.py:16:79: E231 missing whitespace after ','\n"}
+[2.783957] (jetcobot_driver) StdoutLine: {'line': b'        self.subscription = self.create_subscription(JointState,"joint_states",self.listener_callback,10)\n'}
+[2.784071] (jetcobot_driver) StdoutLine: {'line': b'                                                                              ^\n'}
+[2.784180] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.784287] (jetcobot_driver) StdoutLine: {'line': b'./jetcobot_driver/sync_plan_nx.py:16:100: E501 line too long (105 > 99 characters)\n'}
+[2.784397] (jetcobot_driver) StdoutLine: {'line': b'        self.subscription = self.create_subscription(JointState,"joint_states",self.listener_callback,10)\n'}
+[2.784556] (jetcobot_driver) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[2.784716] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.784842] (jetcobot_driver) StdoutLine: {'line': b"./jetcobot_driver/sync_plan_nx.py:16:102: E231 missing whitespace after ','\n"}
+[2.784969] (jetcobot_driver) StdoutLine: {'line': b'        self.subscription = self.create_subscription(JointState,"joint_states",self.listener_callback,10)\n'}
+[2.785085] (jetcobot_driver) StdoutLine: {'line': b'                                                                                                     ^\n'}
+[2.785374] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.785598] (jetcobot_driver) StdoutLine: {'line': b'./jetcobot_driver/sync_plan_nx.py:17:1: W293 blank line contains whitespace\n'}
+[2.785900] (jetcobot_driver) StdoutLine: {'line': b'        \n'}
+[2.786075] (jetcobot_driver) StdoutLine: {'line': b'^\n'}
+[2.786204] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.786489] (jetcobot_driver) StdoutLine: {'line': b'./jetcobot_driver/sync_plan_nx.py:49:1: W293 blank line contains whitespace\n'}
+[2.786640] (jetcobot_driver) StdoutLine: {'line': b' \n'}
+[2.786766] (jetcobot_driver) StdoutLine: {'line': b'^\n'}
+[2.786885] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.787007] (jetcobot_driver) StdoutLine: {'line': b'./jetcobot_driver/sync_plan_nx.py:57:1: W293 blank line contains whitespace\n'}
+[2.787137] (jetcobot_driver) StdoutLine: {'line': b'    \n'}
+[2.787253] (jetcobot_driver) StdoutLine: {'line': b'^\n'}
+[2.787365] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.787478] (jetcobot_driver) StdoutLine: {'line': b'./jetcobot_driver/sync_plan_nx.py:59:1: W293 blank line contains whitespace\n'}
+[2.789736] (jetcobot_driver) StdoutLine: {'line': b'    \n'}
+[2.789991] (jetcobot_driver) StdoutLine: {'line': b'^\n'}
+[2.790149] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.790280] (jetcobot_driver) StdoutLine: {'line': b'./jetcobot_driver/sync_plan_nx.py:65:11: W292 no newline at end of file\n'}
+[2.790408] (jetcobot_driver) StdoutLine: {'line': b'    main()          ^\n'}
+[2.790527] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.790641] (jetcobot_driver) StdoutLine: {'line': b"6     E231 missing whitespace after ','\n"}
+[2.790759] (jetcobot_driver) StdoutLine: {'line': b'3     E302 expected 2 blank lines, found 1\n'}
+[2.790870] (jetcobot_driver) StdoutLine: {'line': b'1     E305 expected 2 blank lines after class or function definition, found 1\n'}
+[2.790983] (jetcobot_driver) StdoutLine: {'line': b'1     E501 line too long (105 > 99 characters)\n'}
+[2.791096] (jetcobot_driver) StdoutLine: {'line': b"2     F401 'os' imported but unused\n"}
+[2.791210] (jetcobot_driver) StdoutLine: {'line': b'1     W292 no newline at end of file\n'}
+[2.791588] (jetcobot_driver) StdoutLine: {'line': b'7     W293 blank line contains whitespace\n'}
+[2.791778] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.791907] (jetcobot_driver) StdoutLine: {'line': b'10 files checked\n'}
+[2.792025] (jetcobot_driver) StdoutLine: {'line': b'21 errors\n'}
+[2.792140] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.792251] (jetcobot_driver) StdoutLine: {'line': b"'E'-type errors: 11\n"}
+[2.792367] (jetcobot_driver) StdoutLine: {'line': b"'F'-type errors: 2\n"}
+[2.792479] (jetcobot_driver) StdoutLine: {'line': b"'W'-type errors: 8\n"}
+[2.792660] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.792779] (jetcobot_driver) StdoutLine: {'line': b'Checked files:\n'}
+[2.792899] (jetcobot_driver) StdoutLine: {'line': b'\n'}
+[2.793010] (jetcobot_driver) StdoutLine: {'line': b'* ./setup.py\n'}
+[2.793119] (jetcobot_driver) StdoutLine: {'line': b'* ./launch/visual_servo.launch.py\n'}
+[2.793227] (jetcobot_driver) StdoutLine: {'line': b'* ./jetcobot_driver/sync_plan.py\n'}
+[2.793338] (jetcobot_driver) StdoutLine: {'line': b'* ./jetcobot_driver/sync_plan_nx.py\n'}
+[2.793445] (jetcobot_driver) StdoutLine: {'line': b'* ./jetcobot_driver/__init__.py\n'}
+[2.793552] (jetcobot_driver) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[2.793661] (jetcobot_driver) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[2.793773] (jetcobot_driver) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[2.793879] (jetcobot_driver) StdoutLine: {'line': b'* ./visual_servo_6dof/__init__.py\n'}
+[2.793986] (jetcobot_driver) StdoutLine: {'line': b'* ./visual_servo_6dof/visual_servo_6dof.py\n'}
+[2.794093] (jetcobot_driver) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[2.794203] (jetcobot_driver) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[2.794317] (jetcobot_driver) StdoutLine: {'line': b'_________________________________ test_pep257 __________________________________\n'}
+[2.794426] (jetcobot_driver) StdoutLine: {'line': b'test/test_pep257.py:23: in test_pep257\n'}
+[2.794536] (jetcobot_driver) StdoutLine: {'line': b"    assert rc == 0, 'Found code style errors / warnings'\n"}
+[2.794647] (jetcobot_driver) StdoutLine: {'line': b'E   AssertionError: Found code style errors / warnings\n'}
+[2.794755] (jetcobot_driver) StdoutLine: {'line': b'E   assert 1 == 0\n'}
+[2.794862] (jetcobot_driver) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[2.794969] (jetcobot_driver) StdoutLine: {'line': b'checking ./jetcobot_driver/__init__.py\n'}
+[2.795075] (jetcobot_driver) StdoutLine: {'line': b'checking ./jetcobot_driver/sync_plan.py\n'}
+[2.795179] (jetcobot_driver) StdoutLine: {'line': b'checking ./jetcobot_driver/sync_plan_nx.py\n'}
+[2.795285] (jetcobot_driver) StdoutLine: {'line': b'checking ./launch/visual_servo.launch.py\n'}
+[2.795394] (jetcobot_driver) StdoutLine: {'line': b'checking ./setup.py\n'}
+[2.795505] (jetcobot_driver) StdoutLine: {'line': b'checking ./test/test_copyright.py\n'}
+[2.795611] (jetcobot_driver) StdoutLine: {'line': b'checking ./test/test_flake8.py\n'}
+[2.795717] (jetcobot_driver) StdoutLine: {'line': b'checking ./test/test_pep257.py\n'}
+[2.795827] (jetcobot_driver) StdoutLine: {'line': b'checking ./visual_servo_6dof/__init__.py\n'}
+[2.795933] (jetcobot_driver) StdoutLine: {'line': b'checking ./visual_servo_6dof/visual_servo_6dof.py\n'}
+[2.796037] (jetcobot_driver) StdoutLine: {'line': b'./visual_servo_6dof/visual_servo_6dof.py:2 at module level: D213: Multi-line docstring summary should start at the second line\n'}
+[2.796146] (jetcobot_driver) StdoutLine: {'line': b'./visual_servo_6dof/visual_servo_6dof.py:298 in private method `_optical_to_command_frame`: D213: Multi-line docstring summary should start at the second line\n'}
+[2.796300] (jetcobot_driver) StdoutLine: {'line': b'checking test/test_copyright.py\n'}
+[2.796408] (jetcobot_driver) StdoutLine: {'line': b'checking test/test_flake8.py\n'}
+[2.796578] (jetcobot_driver) StdoutLine: {'line': b'checking test/test_pep257.py\n'}
+[2.796697] (jetcobot_driver) StdoutLine: {'line': b'2 errors\n'}
+[2.796814] (jetcobot_driver) StdoutLine: {'line': b'- generated xml file: /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/pytest.xml -\n'}
+[2.796930] (jetcobot_driver) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[2.797064] (jetcobot_driver) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 21 code style...\n'}
+[2.797179] (jetcobot_driver) StdoutLine: {'line': b'FAILED test/test_pep257.py::test_pep257 - AssertionError: Found code style er...\n'}
+[2.797293] (jetcobot_driver) StdoutLine: {'line': b'=================== 2 failed, 1 skipped, 2 warnings in 0.87s ===================\n'}
+[2.809682] (-) TimerEvent: {}
+[2.912665] (-) TimerEvent: {}
+[3.013074] (-) TimerEvent: {}
+[3.102672] (jetcobot_driver) CommandEnded: {'returncode': 1}
+[3.103992] (jetcobot_driver) TestFailure: {'identifier': 'jetcobot_driver'}
+[3.104935] (jetcobot_driver) JobEnded: {'identifier': 'jetcobot_driver', 'rc': 0}
+[3.105821] (-) EventReactorShutdown: {}

@@ -1,0 +1,32 @@
+charuco_handeye_collector:
+  ros__parameters:
+    image_topic: /wrist_camera/image_raw
+    camera_info_topic: /wrist_camera/camera_info
+    base_frame: dummy
+    gripper_frame: 6_Link
+    camera_frame: camera_optical_frame
+    board_frame: base_chessboard
+    # 标定板_ChArUco_5x7_28mm_A4.pdf: 5x7 格，17 个 tag，24 个内角点
+    squares_x: 5
+    squares_y: 7
+    square_length_m: 0.028
+    marker_length_m: 0.021
+    dictionary: DICT_5X5_100
+    output_file: /home/jetson/charuco_handeye_samples.json
+    # 解算前留空；解算后填入结果路径，可实时发布 dummy -> base_chessboard。
+    calibration_file: ''
+    min_markers: 4
+    min_corners: 8
+    min_board_coverage: 0.20
+    min_image_coverage: 0.01
+    max_reprojection_rms_px: 0.8
+    max_image_age_sec: 1.0
+    stability_window_sec: 0.8
+    min_stable_duration_sec: 0.35
+    min_stable_frames: 6
+    max_robot_translation_m: 0.001
+    max_robot_rotation_deg: 0.5
+    max_board_translation_m: 0.004
+    max_board_rotation_deg: 1.5
+    min_translation_m: 0.01
+    min_rotation_deg: 5.0

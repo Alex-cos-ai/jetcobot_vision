@@ -1,0 +1,90 @@
+[0.177s] Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.215s] UpdateCTestConfiguration  from :/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/CTestConfiguration.ini
+[0.216s] Parse Config file:/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/CTestConfiguration.ini
+[0.216s]    Site: yahboom
+[0.216s]    Build name: (empty)
+[0.216s]  Add coverage exclude regular expressions.
+[0.216s] Create new tag: 20261119-0454 - Experimental
+[0.216s] UpdateCTestConfiguration  from :/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/CTestConfiguration.ini
+[0.216s] Parse Config file:/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/CTestConfiguration.ini
+[0.217s] Test project /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit
+[0.217s] Constructing a list of tests
+[0.218s] Done constructing a list of tests
+[0.218s] Updating test list for fixtures
+[0.218s] Added 0 tests to meet fixture requirements
+[0.218s] Checking test dependency graph...
+[0.219s] Checking test dependency graph end
+[0.219s] test 1
+[0.219s]     Start 1: handeye_solve_test
+[0.219s] 
+[0.219s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/handeye_solve_test.xunit.xml" "--package-name" "jetcobot_moveit" "--output-file" "/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/handeye_solve_test.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/test/test_handeye_solve.py" "-o" "cache_dir=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/handeye_solve_test/.cache" "--junit-xml=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/handeye_solve_test.xunit.xml" "--junit-prefix=jetcobot_moveit"
+[0.219s] 1: Test timeout computed to be: 60
+[0.400s] 1: -- run_test.py: invoking following command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit':
+[0.400s] 1:  - /usr/bin/python3 -u -m pytest /home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/test/test_handeye_solve.py -o cache_dir=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/handeye_solve_test/.cache --junit-xml=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/handeye_solve_test.xunit.xml --junit-prefix=jetcobot_moveit
+[1.346s] 1: ============================= test session starts ==============================
+[1.346s] 1: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[1.388s] 1: cachedir: build/jetcobot_moveit/ament_cmake_pytest/handeye_solve_test/.cache
+[1.388s] 1: rootdir: /home/jetson/jetcobot_colcon_ws
+[1.388s] 1: plugins: ament-lint-0.12.11, ament-flake8-0.12.11, ament-pep257-0.12.11, ament-copyright-0.12.11, launch-testing-1.0.7, launch-testing-ros-0.19.8, ament-xmllint-0.12.11, anyio-4.8.0, colcon-core-0.18.4, cov-3.0.0
+[1.758s] 1: libEGL warning: DRI2: failed to authenticate
+[1.866s] 1: collected 7 items
+[1.867s] 1: 
+[2.180s] 1: ../../src/jetcobot_moveit/test/test_handeye_solve.py .......             [100%]
+[2.180s] 1: 
+[2.181s] 1: - generated xml file: /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/handeye_solve_test.xunit.xml -
+[2.182s] 1: ============================== 7 passed in 0.82s ===============================
+[2.497s] 1: -- run_test.py: return code 0
+[2.499s] 1: -- run_test.py: verify result file '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/handeye_solve_test.xunit.xml'
+[2.526s] 1/3 Test #1: handeye_solve_test ...............   Passed    2.31 sec
+[2.526s] test 2
+[2.527s]     Start 2: charuco_handeye_test
+[2.527s] 
+[2.527s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/charuco_handeye_test.xunit.xml" "--package-name" "jetcobot_moveit" "--output-file" "/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/charuco_handeye_test.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/test/test_charuco_handeye.py" "-o" "cache_dir=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/charuco_handeye_test/.cache" "--junit-xml=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/charuco_handeye_test.xunit.xml" "--junit-prefix=jetcobot_moveit"
+[2.528s] 2: Test timeout computed to be: 60
+[2.694s] 2: -- run_test.py: invoking following command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit':
+[2.694s] 2:  - /usr/bin/python3 -u -m pytest /home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/test/test_charuco_handeye.py -o cache_dir=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/charuco_handeye_test/.cache --junit-xml=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/charuco_handeye_test.xunit.xml --junit-prefix=jetcobot_moveit
+[3.606s] 2: ============================= test session starts ==============================
+[3.607s] 2: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[3.615s] 2: cachedir: build/jetcobot_moveit/ament_cmake_pytest/charuco_handeye_test/.cache
+[3.616s] 2: rootdir: /home/jetson/jetcobot_colcon_ws
+[3.618s] 2: plugins: ament-lint-0.12.11, ament-flake8-0.12.11, ament-pep257-0.12.11, ament-copyright-0.12.11, launch-testing-1.0.7, launch-testing-ros-0.19.8, ament-xmllint-0.12.11, anyio-4.8.0, colcon-core-0.18.4, cov-3.0.0
+[3.927s] 2: libEGL warning: DRI2: failed to authenticate
+[4.022s] 2: collected 8 items
+[4.023s] 2: 
+[4.431s] 2: ../../src/jetcobot_moveit/test/test_charuco_handeye.py ........          [100%]
+[4.432s] 2: 
+[4.432s] 2: - generated xml file: /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/charuco_handeye_test.xunit.xml -
+[4.434s] 2: ============================== 8 passed in 0.83s ===============================
+[4.708s] 2: -- run_test.py: return code 0
+[4.708s] 2: -- run_test.py: verify result file '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/charuco_handeye_test.xunit.xml'
+[4.744s] 2/3 Test #2: charuco_handeye_test .............   Passed    2.22 sec
+[4.745s] test 3
+[4.745s]     Start 3: charuco_collector_test
+[4.745s] 
+[4.745s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/charuco_collector_test.xunit.xml" "--package-name" "jetcobot_moveit" "--output-file" "/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/charuco_collector_test.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/test/test_charuco_collector.py" "-o" "cache_dir=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/charuco_collector_test/.cache" "--junit-xml=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/charuco_collector_test.xunit.xml" "--junit-prefix=jetcobot_moveit"
+[4.745s] 3: Test timeout computed to be: 60
+[4.918s] 3: -- run_test.py: invoking following command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit':
+[4.918s] 3:  - /usr/bin/python3 -u -m pytest /home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/test/test_charuco_collector.py -o cache_dir=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/charuco_collector_test/.cache --junit-xml=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/charuco_collector_test.xunit.xml --junit-prefix=jetcobot_moveit
+[5.764s] 3: ============================= test session starts ==============================
+[5.765s] 3: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[5.775s] 3: cachedir: build/jetcobot_moveit/ament_cmake_pytest/charuco_collector_test/.cache
+[5.776s] 3: rootdir: /home/jetson/jetcobot_colcon_ws
+[5.776s] 3: plugins: ament-lint-0.12.11, ament-flake8-0.12.11, ament-pep257-0.12.11, ament-copyright-0.12.11, launch-testing-1.0.7, launch-testing-ros-0.19.8, ament-xmllint-0.12.11, anyio-4.8.0, colcon-core-0.18.4, cov-3.0.0
+[6.143s] 3: libEGL warning: DRI2: failed to authenticate
+[7.199s] 3: collected 3 items
+[7.200s] 3: 
+[7.731s] 3: ../../src/jetcobot_moveit/test/test_charuco_collector.py ...             [100%]
+[7.733s] 3: 
+[7.733s] 3: - generated xml file: /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/charuco_collector_test.xunit.xml -
+[7.735s] 3: ============================== 3 passed in 1.97s ===============================
+[8.267s] 3: -- run_test.py: return code 0
+[8.268s] 3: -- run_test.py: verify result file '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/charuco_collector_test.xunit.xml'
+[8.312s] 3/3 Test #3: charuco_collector_test ...........   Passed    3.56 sec
+[8.320s] 
+[8.320s] 100% tests passed, 0 tests failed out of 3
+[8.320s] 
+[8.321s] Label Time Summary:
+[8.321s] pytest    =   8.09 sec*proc (3 tests)
+[8.321s] 
+[8.321s] Total Test time (real) =   8.10 sec
+[8.333s] Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit' returned '0': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

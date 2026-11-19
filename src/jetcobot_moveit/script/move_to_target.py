@@ -38,9 +38,9 @@ class MoveToTarget(Node):
         self.reference_frame = 'dummy'
 
         # 目标位置（单位：m）
-        self.target_x = 0.15
-        self.target_y = -0.063
-        self.target_z = 0.30
+        self.target_x = 0.12
+        self.target_y = -0.06
+        self.target_z = 0.32
 
         # 目标姿态（四元数）
         self.target_qx = 0.479426
@@ -52,10 +52,10 @@ class MoveToTarget(Node):
         # 规划参数
         # ==============================
 
-        self.planner_id = 'RRTConnectkConfigDefault'
+        self.planner_id = 'RRTkConfigDefault'
         self.pipeline_id = 'ompl'
 
-        self.planning_time = 5.0
+        self.planning_time = 2.0
         self.planning_attempts = 10
 
         self.velocity_scaling = 0.2
@@ -162,7 +162,7 @@ class MoveToTarget(Node):
 
         request.group_name = self.group_name
         request.pipeline_id = 'ompl'
-        request.planner_id = 'RRTConnectkConfigDefault'
+        request.planner_id = 'RRTkConfigDefault'
 
         request.num_planning_attempts = self.planning_attempts
         request.allowed_planning_time = self.planning_time

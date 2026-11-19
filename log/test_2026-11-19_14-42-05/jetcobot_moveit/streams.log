@@ -1,0 +1,49 @@
+[0.073s] Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process -R pregrasp_handeye_test --output-on-failure
+[0.085s] UpdateCTestConfiguration  from :/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/CTestConfiguration.ini
+[0.086s] Parse Config file:/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/CTestConfiguration.ini
+[0.086s]    Site: yahboom
+[0.086s]    Build name: (empty)
+[0.087s]  Add coverage exclude regular expressions.
+[0.087s] Create new tag: 20261119-0642 - Experimental
+[0.087s] UpdateCTestConfiguration  from :/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/CTestConfiguration.ini
+[0.087s] Parse Config file:/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/CTestConfiguration.ini
+[0.087s] Test project /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit
+[0.087s] Constructing a list of tests
+[0.087s] Done constructing a list of tests
+[0.087s] Updating test list for fixtures
+[0.088s] Added 0 tests to meet fixture requirements
+[0.088s] Checking test dependency graph...
+[0.088s] Checking test dependency graph end
+[0.088s] test 4
+[0.088s]     Start 4: pregrasp_handeye_test
+[0.088s] 
+[0.088s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/pregrasp_handeye_test.xunit.xml" "--package-name" "jetcobot_moveit" "--output-file" "/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/pregrasp_handeye_test.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/test/test_pregrasp_handeye.py" "-o" "cache_dir=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/pregrasp_handeye_test/.cache" "--junit-xml=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/pregrasp_handeye_test.xunit.xml" "--junit-prefix=jetcobot_moveit"
+[0.088s] 4: Test timeout computed to be: 60
+[0.244s] 4: -- run_test.py: invoking following command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit':
+[0.244s] 4:  - /usr/bin/python3 -u -m pytest /home/jetson/jetcobot_colcon_ws/src/jetcobot_moveit/test/test_pregrasp_handeye.py -o cache_dir=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/ament_cmake_pytest/pregrasp_handeye_test/.cache --junit-xml=/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/pregrasp_handeye_test.xunit.xml --junit-prefix=jetcobot_moveit
+[1.143s] 4: ============================= test session starts ==============================
+[1.143s] 4: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[1.154s] 4: cachedir: build/jetcobot_moveit/ament_cmake_pytest/pregrasp_handeye_test/.cache
+[1.154s] 4: rootdir: /home/jetson/jetcobot_colcon_ws
+[1.154s] 4: plugins: ament-lint-0.12.11, ament-flake8-0.12.11, ament-pep257-0.12.11, ament-copyright-0.12.11, launch-testing-1.0.7, launch-testing-ros-0.19.8, ament-xmllint-0.12.11, anyio-4.8.0, colcon-core-0.18.4, cov-3.0.0
+[1.471s] 4: libEGL warning: DRI2: failed to authenticate
+[2.722s] 4: collected 5 items
+[2.723s] 4: 
+[2.950s] 4: ../../src/jetcobot_moveit/test/test_pregrasp_handeye.py .....            [100%]
+[2.950s] 4: 
+[2.950s] 4: - generated xml file: /home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/pregrasp_handeye_test.xunit.xml -
+[2.950s] 4: ============================== 5 passed in 1.81s ===============================
+[3.532s] 4: -- run_test.py: return code 0
+[3.533s] 4: -- run_test.py: verify result file '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit/test_results/jetcobot_moveit/pregrasp_handeye_test.xunit.xml'
+[3.569s] 1/1 Test #4: pregrasp_handeye_test ............   Passed    3.48 sec
+[3.569s] 
+[3.569s] The following tests passed:
+[3.569s] 	pregrasp_handeye_test
+[3.569s] 
+[3.570s] 100% tests passed, 0 tests failed out of 1
+[3.570s] 
+[3.570s] Label Time Summary:
+[3.570s] pytest    =   3.48 sec*proc (1 test)
+[3.570s] 
+[3.570s] Total Test time (real) =   3.48 sec
+[3.575s] Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_moveit' returned '0': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process -R pregrasp_handeye_test --output-on-failure

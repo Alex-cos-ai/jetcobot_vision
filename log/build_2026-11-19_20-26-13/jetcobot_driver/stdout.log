@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing jetcobot_driver.egg-info/PKG-INFO
+writing dependency_links to jetcobot_driver.egg-info/dependency_links.txt
+writing entry points to jetcobot_driver.egg-info/entry_points.txt
+writing requirements to jetcobot_driver.egg-info/requires.txt
+writing top-level names to jetcobot_driver.egg-info/top_level.txt
+reading manifest file 'jetcobot_driver.egg-info/SOURCES.txt'
+writing manifest file 'jetcobot_driver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot-driver.egg-link (link to .)
+Installing servo_serial_bridge script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+Installing sync_plan script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+Installing sync_plan_nx script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+Installing visual_servo_6dof script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+
+Installed /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver
+running symlink_data

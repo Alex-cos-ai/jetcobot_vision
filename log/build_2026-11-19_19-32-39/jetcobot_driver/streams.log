@@ -1,0 +1,22 @@
+[1.987s] Invoking command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver': PYTHONPATH=/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build --no-deps symlink_data
+[2.711s] running develop
+[3.238s] running egg_info
+[3.239s] writing jetcobot_driver.egg-info/PKG-INFO
+[3.239s] writing dependency_links to jetcobot_driver.egg-info/dependency_links.txt
+[3.239s] writing entry points to jetcobot_driver.egg-info/entry_points.txt
+[3.240s] writing requirements to jetcobot_driver.egg-info/requires.txt
+[3.240s] writing top-level names to jetcobot_driver.egg-info/top_level.txt
+[3.245s] reading manifest file 'jetcobot_driver.egg-info/SOURCES.txt'
+[3.246s] writing manifest file 'jetcobot_driver.egg-info/SOURCES.txt'
+[3.341s] running build_ext
+[3.342s] Creating /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot-driver.egg-link (link to .)
+[3.343s] Installing sync_plan script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+[3.344s] Installing sync_plan_nx script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+[3.346s] Installing visual_servo_6dof script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+[3.347s] 
+[3.347s] Installed /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver
+[3.347s] running symlink_data
+[3.347s] symbolically linking /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/launch/wrist_camera.launch.py -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver/launch
+[3.351s] symbolically linking /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/launch/moveit_servo.launch.py -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver/launch
+[3.352s] symbolically linking /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/visual_servo_6dof/config/moveit_servo.yaml -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/share/jetcobot_driver/visual_servo_6dof/config
+[3.486s] Invoked command in '/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver' returned '0': PYTHONPATH=/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build --no-deps symlink_data

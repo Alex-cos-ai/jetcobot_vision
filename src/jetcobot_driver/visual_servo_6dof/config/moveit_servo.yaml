@@ -1,0 +1,39 @@
+# MoveIt Servo 2.5 (ROS 2 Humble). This targets the mock controller launched
+# by visual_servo_demo.launch.py, or the dedicated real feedback/serial bridge.
+use_gazebo: false
+command_in_type: speed_units
+scale:
+  linear: 0.02
+  rotational: 0.1
+  joint: 0.3
+publish_period: 0.0333333333
+low_latency_mode: false
+command_out_type: trajectory_msgs/JointTrajectory
+publish_joint_positions: true
+publish_joint_velocities: true
+publish_joint_accelerations: false
+smoothing_filter_plugin_name: online_signal_smoothing::ButterworthFilterPlugin
+is_primary_planning_scene_monitor: false
+move_group_name: arm_group
+planning_frame: base_link
+ee_frame_name: 6_Link
+robot_link_command_frame: 6_Link
+incoming_command_timeout: 0.1
+num_outgoing_halt_msgs_to_publish: 4
+# Raw Jacobian conditioning includes metre/radian scaling. The compact
+# JetCobot arm has condition numbers around 35-45 at regular bent poses.
+# Keep a finite stop threshold; the straight pose remains singular.
+lower_singularity_threshold: 45.0
+hard_stop_singularity_threshold: 100.0
+leaving_singularity_threshold_multiplier: 2.0
+joint_limit_margin: 0.1
+cartesian_command_in_topic: ~/delta_twist_cmds
+joint_command_in_topic: ~/delta_joint_cmds
+joint_topic: /joint_states
+status_topic: ~/status
+command_out_topic: /arm_group_controller/joint_trajectory
+monitored_planning_scene_topic: /monitored_planning_scene
+check_collisions: true
+collision_check_rate: 10.0
+self_collision_proximity_threshold: 0.01
+scene_collision_proximity_threshold: 0.02

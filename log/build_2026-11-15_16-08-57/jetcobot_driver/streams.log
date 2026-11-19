@@ -1,0 +1,25 @@
+[2.576s] Invoking command in '/home/jetson/jetcobot_colcon_ws/src/jetcobot_driver': PYTHONPATH=/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jetcobot_driver build --build-base /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build install --record /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/install.log --single-version-externally-managed install_data
+[3.274s] running egg_info
+[3.276s] writing ../../build/jetcobot_driver/jetcobot_driver.egg-info/PKG-INFO
+[3.277s] writing dependency_links to ../../build/jetcobot_driver/jetcobot_driver.egg-info/dependency_links.txt
+[3.279s] writing entry points to ../../build/jetcobot_driver/jetcobot_driver.egg-info/entry_points.txt
+[3.280s] writing requirements to ../../build/jetcobot_driver/jetcobot_driver.egg-info/requires.txt
+[3.280s] writing top-level names to ../../build/jetcobot_driver/jetcobot_driver.egg-info/top_level.txt
+[3.286s] reading manifest file '../../build/jetcobot_driver/jetcobot_driver.egg-info/SOURCES.txt'
+[3.307s] writing manifest file '../../build/jetcobot_driver/jetcobot_driver.egg-info/SOURCES.txt'
+[3.308s] running build
+[3.308s] running build_py
+[3.310s] copying jetcobot_driver/sync_plan.py -> /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build/lib/jetcobot_driver
+[3.311s] running install
+[3.312s] running install_lib
+[3.315s] copying /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build/lib/jetcobot_driver/sync_plan.py -> /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot_driver
+[3.318s] byte-compiling /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot_driver/sync_plan.py to sync_plan.cpython-310.pyc
+[3.323s] running install_data
+[3.323s] running install_egg_info
+[3.332s] removing '/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[3.338s] Copying ../../build/jetcobot_driver/jetcobot_driver.egg-info to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages/jetcobot_driver-0.0.0-py3.10.egg-info
+[3.350s] running install_scripts
+[3.398s] Installing sync_plan script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+[3.400s] Installing sync_plan_nx script to /home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/jetcobot_driver
+[3.402s] writing list of installed files to '/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/install.log'
+[3.507s] Invoked command in '/home/jetson/jetcobot_colcon_ws/src/jetcobot_driver' returned '0': PYTHONPATH=/home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/jetcobot_colcon_ws/install/jetcobot_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jetcobot_driver build --build-base /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/build install --record /home/jetson/jetcobot_colcon_ws/build/jetcobot_driver/install.log --single-version-externally-managed install_data
