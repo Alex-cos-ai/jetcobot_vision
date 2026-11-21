@@ -8,6 +8,7 @@ from urllib.parse import unquote, urlparse
 import cv2
 from cv_bridge import CvBridge
 import rclpy
+from .tracking_protocol import init_ros
 from rclpy.executors import ExternalShutdownException
 from rclpy.node import Node
 from rclpy.qos import qos_profile_sensor_data
@@ -47,6 +48,7 @@ class WristCamera(Node):
         self.info = load_calibration(self.get_parameter('camera_info_url').value,
                                      self.get_parameter('frame_id').value)
         self.bridge = CvBridge()
+        cv2.setNumThreads(1)
         self.last_capture_ns = 0
         self.camera = cv2.VideoCapture(device, cv2.CAP_V4L2)
         try:
@@ -100,7 +102,7 @@ class WristCamera(Node):
 
 def main(args=None):
     """Run the wrist camera and release its device on shutdown."""
-    rclpy.init(args=args)
+    init_ros(args=args)
     node = None
     try:
         node = WristCamera()

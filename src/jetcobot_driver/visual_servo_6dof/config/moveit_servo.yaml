@@ -18,7 +18,7 @@ move_group_name: arm_group
 planning_frame: base_link
 ee_frame_name: 6_Link
 robot_link_command_frame: 6_Link
-incoming_command_timeout: 0.1
+incoming_command_timeout: 0.2
 num_outgoing_halt_msgs_to_publish: 4
 # Raw Jacobian conditioning includes metre/radian scaling. The compact
 # JetCobot arm has condition numbers around 35-45 at regular bent poses.
@@ -26,7 +26,7 @@ num_outgoing_halt_msgs_to_publish: 4
 lower_singularity_threshold: 45.0
 hard_stop_singularity_threshold: 100.0
 leaving_singularity_threshold_multiplier: 2.0
-joint_limit_margin: 0.1
+joint_limit_margin: 0.0872664626
 cartesian_command_in_topic: ~/delta_twist_cmds
 joint_command_in_topic: ~/delta_joint_cmds
 joint_topic: /joint_states

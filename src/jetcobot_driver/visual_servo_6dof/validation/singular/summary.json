@@ -1,0 +1,19 @@
+{
+  "samples": 400,
+  "min_joint_margin_deg": 27.658594322456935,
+  "min_sigma": 5.310339377491761e-07,
+  "max_joint_velocity_deg_s": 2.7973548755668722,
+  "max_step_deg": 0.13986774377834157,
+  "states": {
+    "HOLD": 10,
+    "LOST": 16,
+    "TRACKING": 374
+  },
+  "guard_states": {
+    "OK": 313,
+    "projected": 87
+  },
+  "trajectory": "singular",
+  "duration_s": 20.0,
+  "full_pose": true
+}

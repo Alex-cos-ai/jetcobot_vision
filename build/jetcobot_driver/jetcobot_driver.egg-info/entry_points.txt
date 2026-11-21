@@ -1,8 +1,13 @@
 [console_scripts]
 check_camera_sync = visual_servo_6dof.check_camera_sync:main
 servo_serial_bridge = visual_servo_6dof.servo_serial_bridge:main
+simulate_tracking = visual_servo_6dof.simulate_tracking:main
 sync_plan = jetcobot_driver.sync_plan:main
 sync_plan_nx = jetcobot_driver.sync_plan_nx:main
+tracking_display = visual_servo_6dof.tracking_display:main
+tracking_main = jetcobot_driver.tracking_main:main
+tracking_mock = visual_servo_6dof.tracking_mock:main
+tracking_scene = visual_servo_6dof.tracking_scene:main
 visual_servo_6dof = visual_servo_6dof.visual_servo_6dof:main
 wrist_camera = visual_servo_6dof.wrist_camera:main
 

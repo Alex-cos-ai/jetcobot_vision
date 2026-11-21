@@ -30,21 +30,26 @@ def test_explicit_blue_selection_ignores_a_larger_red_object():
 
 @pytest.mark.parametrize('age', [-.02, .36])
 def test_invalid_image_timestamp_clears_previous_tracking_data(age):
-    """An old or future frame must discard all targets waiting for TF."""
+    """A stale image can be displayed but must discard pending control observations."""
+    from cv_bridge import CvBridge
+    image = np.zeros((480, 640, 3), dtype=np.uint8)
+    cv2.rectangle(image, (420, 250), (480, 310), (255, 0, 0), -1)
+    bridge = CvBridge()
+    message = bridge.cv2_to_imgmsg(image, 'bgr8')
+    now_ns = 10000000000
+    stamp_ns = int(now_ns - age * 1.e9)
+    message.header.stamp.sec, message.header.stamp.nanosec = divmod(stamp_ns, 1000000000)
+    yy, xx = np.indices((480, 640), dtype=np.float32)
     node = SimpleNamespace(
-        info=SimpleNamespace(width=640, height=480),
-        optical_frame='camera_optical_frame',
-        p=lambda name: .35,
-        pending=deque([('previous_target', 'previous_stamp')]),
-        observation='previous_target', filtered_error=np.ones(3),
-        get_logger=lambda: SimpleNamespace(warning=lambda *a, **k: None))
-    image = SimpleNamespace(width=640, height=480,
-                            header=SimpleNamespace(frame_id='camera_optical_frame'))
-    VisualServo6Dof.queue_detection(node, (1000, 'blue', 400, 250, 140), image, None, age)
-    assert node.status == 'stale_image'
+        bridge=bridge, info=SimpleNamespace(height=480, width=640), maps=(xx, yy),
+        config={'runtime': {'timeout_s': .35},
+                'camera': {'min_area_px': 250., 'border_margin_px': 2, 'lock_distance_px': 120.}},
+        colour='blue', locked=None, pending=deque([('old', 'old')]), found=True,
+        get_clock=lambda: SimpleNamespace(now=lambda: SimpleNamespace(nanoseconds=now_ns)),
+        publish_debug=lambda *a: None)
+    VisualServo6Dof.image_callback(node, message)
+    assert not node.found
     assert not node.pending
-    assert node.observation is None
-    assert node.filtered_error is None
 
 
 @pytest.mark.parametrize('target', [[.28, .21, .78], [-.17, -.12, .3]])

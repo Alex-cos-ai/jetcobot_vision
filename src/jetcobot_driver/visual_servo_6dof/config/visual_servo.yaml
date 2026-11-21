@@ -1,28 +1,102 @@
-visual_servo_6dof:
-  ros__parameters:
+# 两个入口共用此文件。内部 m/rad/s，显示 mm/deg。CLI > YAML > 代码默认。
+tracking:
+  runtime:
+    control_hz: 20.0
+    command_hz: 10.0
+    log_period_s: 2.0
+    timeout_s: 0.35
+    dt_range_s: [0.005, 0.2]
+    tf_sync_tolerance_s: 0.20       # 相机帧与最新实测关节时间允许的最大差值
+    soft_start_s: 0.3   # 缩短启动、重新捕获后的缓启动时间
+    lost_reset_s: 0.5
+    lost_decay_s: 0.15
+    home_on_lost: false
+    home_delay_s: 5.0
+    home_speed_rad_s: 0.05
+  camera:
     image_topic: /wrist_camera/image_raw
     camera_info_topic: /wrist_camera/camera_info
-    command_topic: /servo_node/delta_twist_cmds
-    base_frame: base_link
-    command_frame: 6_Link
-    # auto selects the largest red, green or blue region.
-    target_colour: auto
+    video_device: /dev/video0
     calibration_file: /home/jetson/charuco_handeye_result_filtered.json
-    control_frequency: 20.0
-    target_timeout: 0.35
-    # Apparent scale is a relative distance estimate for the same object.
-    nominal_depth_m: 0.45
-    target_width_px: 140.0
+    target_colour: blue               # 本次实机验证锁定蓝色方块
+    square_side_mm: 30.0
+    desired_depth_mm: 200.0
+    reference_pixel: [320.0, 240.0]
     min_area_px: 250.0
-    max_linear_velocity: 0.01
-    max_angular_velocity: 0.04
-    max_linear_acceleration: 0.03
-    max_angular_acceleration: 0.1
-    filter_alpha: 0.35
-    deadband_u_px: 4.0
-    deadband_v_px: 4.0
-    deadband_width_px: 5.0
-    publish_debug_image: true
-    # Two angular errors (rad) and a relative range error (m).
-    q_aim: [4.0, 4.0, 1.0]
-    r_aim: [4.0, 4.0, 16.0]
+    min_radius_px: 6.0
+    depth_range_m: [0.08, 1.5]
+    border_margin_px: 2
+    lock_distance_px: 120.0
+    partial_aim_gain: 0.5             # 残缺目标先倾转相机；完整后再启用XYZ位置PID
+  # ===== PID 调参区：首先只调 Kp，确认方向后才增加 Ki/Kd =====
+  pid:
+    kp: [0.6, 0.6, 0.35]              # 1/s，x右、y下、z前
+    ki: [0.0, 0.0, 0.0]              # 1/s²；默认不用积分
+    kd: [0.0, 0.0, 0.0]              # 无量纲，测量微分
+    deadband_m: [0.003, 0.003, 0.005]
+    settle_exit_ratio: 1.5            # 进入3/3/5mm死区后，超过4.5/4.5/7.5mm才重新跟踪
+    integral_limit_m_s: [0.02, 0.02, 0.04]  # 积分状态 ∫e dt 的限幅
+    input_tau_s: 0.06
+    depth_tau_s: 0.10
+    derivative_tau_s: 0.10
+    max_speed_m_s: 0.01              # 保留10mm/s速度上限，以较缓加速度起停
+    max_acceleration_m_s2: 0.06
+  ik:
+    backend: weighted_dls             # 位置主任务DLS，避免6D Servo在伸直姿态急停
+    full_pose: false                  # 仅自研后端；Servo默认保持初始姿态
+    reference_length_m: 0.1
+    epsilon: 0.2
+    lambda_max: 0.1
+    weight_max: 50.0
+    rank_tolerance: 0.000001
+    orientation_gain: 0.4
+    max_angular_speed_rad_s: 0.04
+    centering_gain: 0.02
+    manipulability_gain: 0.0001
+    secondary_speed_rad_s: 0.02
+  model:
+    verified: true                    # 已核对SDK范围、现有J6映射及多姿态FK；execute每次复检
+    margin_deg: 5.0
+    max_velocity_rad_s: [0.2, 0.2, 0.2, 0.2, 0.2, 0.2]
+    max_acceleration_rad_s2: [0.5, 0.5, 0.5, 0.5, 0.5, 0.5]
+    hardware_limits_deg: [[-168, 168], [-135, 135], [-150, 150], [-145, 145], [-165, 165], [-180, 180]]
+  fk_check:
+    alignment_verified: true          # 按实机多姿态反馈校准末端帧；执行仍受model/safety门控
+    euler_convention: body_zyx         # SDK：机体ZYX，对应 Rz(rz) Ry(ry) Rx(rx)
+    base_from_sdk_base: [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+    # Yahboom官方URDF保持原样；以下固定末端帧映射由实机多姿态 get_angles_coords 采样拟合。
+    sdk_tool_from_model_ee: [[-0.000214837, -0.707076256, 0.707137273, -0.001500803], [0.000824348, -0.707137174, -0.707075906, -0.004510647], [0.999999637, 0.000431021, 0.000734797, -0.016782982], [0, 0, 0, 1]]
+    position_tolerance_mm: 10.0
+    angle_tolerance_deg: 5.0
+    stationary_tolerance_deg: 0.5
+  safety:
+    verified: true                    # 已接入官方网格凸包检查；桌面实测；保留启动范围限制
+    collision_backend: urdf_mesh      # FCL检查官方碰撞网格的保守凸包，胶囊仅辅助
+    max_tracking_excursion_m: 0.15     # 80mm内六轴低速实测后，扩至启动位置周围150mm
+    table_z_m: -0.01                   # base_link原点高于桌面1 cm，因此桌面z=-1 cm
+    table_clearance_m: 0.06            # 桌面上方保留60mm，覆盖30mm方块及跟随误差
+    # 以下为离线预览初值，必须按安装的相机、夹爪和桌面核对。
+    workspace_min_m: [-0.30, -0.30, 0.08]
+    workspace_max_m: [0.30, 0.30, 0.43]
+    radius_origin_m: [0.0, 0.0, 0.0]
+    max_radius_m: 0.43
+    capsule_radii_m: [0.014, 0.014, 0.014, 0.012, 0.012, 0.012, 0.012]
+    self_clearance_m: 0.003
+    table_exempt_segments: []
+    allowed_collision_pairs: [[4, 6]] # 相机支架与腕部连接段；实际安装须核对
+    gradient_distance_m: 0.02
+    step_samples: 6
+  serial:
+    mode: preview
+    port: /dev/ttyUSB0
+    baud: 1000000
+    update_hz: 10.0
+    timeout_s: 0.35
+    max_step_rad: 0.07                # 反馈最大领先量4°；实测约2°跟随死区，命令仍缓慢递增
+    speed_max: 5                     # SDK等级，不能当rad/s
+    speed_filter_tau_s: 0.25          # 平滑SDK速度等级，减少小幅变化造成重新加减速
+    speed_change_interval_s: 0.25     # 每次最多升/降一个等级
+    read_timeout_s: 0.15
+  simulation:
+    initial_angles_rad: [0.0, 0.45, -1.25, -0.3, 0.1, 0.0]
+    lag_s: 0.15

@@ -1,1 +1,1 @@
-ament_index_python:cv_bridge:geometry_msgs:jetcobot_moveit:launch:launch_ros:moveit_configs_utils:moveit_servo:python3-numpy:python3-opencv:python3-scipy:python3-serial:python3-yaml:rcl_interfaces:rclpy:sensor_msgs:std_msgs:std_srvs:tf2_ros:trajectory_msgs
+ament_index_python:cv_bridge:geometry_msgs:jetcobot_moveit:launch:launch_ros:libfcl-dev:moveit_configs_utils:moveit_msgs:moveit_servo:python3-matplotlib:python3-numpy:python3-opencv:python3-scipy:python3-serial:python3-yaml:rcl_interfaces:rclpy:sensor_msgs:shape_msgs:std_msgs:std_srvs:tf2_ros:trajectory_msgs

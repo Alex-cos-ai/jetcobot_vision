@@ -22,6 +22,6 @@ def generate_launch_description():
             executable='visual_servo_6dof',
             name='visual_servo_6dof',
             output='screen',
-            parameters=[config, {
+            parameters=[{'config_file': config,
                 'target_colour': LaunchConfiguration('target_colour')}]),
     ])

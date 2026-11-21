@@ -1,7 +1,6 @@
-"""Camera aiming and apparent range control with velocity as the LQR input."""
+"""Shared rigid-body transforms and deprecated LQR compatibility helpers."""
 
 import numpy as np
-from scipy.linalg import solve_discrete_are
 
 
 def aiming_axes(center_ray):
@@ -30,6 +29,8 @@ def velocity_model(dt):
 
 def lqr_gain(dt, q, r):
     """Solve LQR for two camera rotation rates and line-of-sight speed."""
+    # 仅兼容旧离线测试；实时跟踪链路使用 TrackingPID，不加载此依赖。
+    from scipy.linalg import solve_discrete_are
     q, r = np.asarray(q, dtype=float), np.asarray(r, dtype=float)
     if (q.shape != (3,) or r.shape != (3,) or
             not np.all(np.isfinite(np.r_[q, r])) or
