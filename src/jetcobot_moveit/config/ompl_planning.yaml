@@ -156,7 +156,7 @@ planner_configs:
 
 
 arm_group:
-  default_planner_config: RRTConnectkConfigDefault
+  default_planner_config: 
 
   planner_configs:
     - SBLkConfigDefault
